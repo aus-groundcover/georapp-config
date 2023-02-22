@@ -1,0 +1,3121 @@
+{
+  "workbench": [
+    "tN2nrg",
+    "LfaYaM",
+    "idvaI5"
+  ],
+  "viewerMode": "2d",
+  "catalog": [
+    {
+      "id": "c2ILj2",
+      "type": "group",
+      "name": "Australia",
+      "members": [
+        {
+          "id": "YExCIs",
+          "type": "group",
+          "name": "Vegetation Cover (MODIS, 500m)",
+          "members": [
+            {
+              "id": "UUSRtl",
+              "type": "group",
+              "name": "Monthly",
+              "members": [
+                {
+                  "type": "wms",
+                  "name": "Vegetation Fractional Cover (PV, NPV & BS, Monthly)",
+                  "url": "https://gsky.nci.org.au/ows/geoglam",
+                  "cacheDuration": "2h",
+                  "opacity": 1,
+                  "supportsGetLegendGraphic": true,
+                  "dateFormat": "mmmm yyyy",
+                  "initialTimeSource": "stop",
+                  "layers": "modis_fract_cov_monthly",
+                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
+                  "linkedWcsCoverage": "modis_fract_cov_monthly",
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "id": "etF1cc",
+                  "shareKeys": [
+                    "Root Group/Australia/Vegetation Cover (MODIS, 500m)/Monthly/Vegetation Fractional Cover (PV, NPV & BS, Monthly)"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Total Vegetation Cover (PV+NPV, Monthly)",
+                  "url": "https://gsky.nci.org.au/ows/geoglam",
+                  "cacheDuration": "2h",
+                  "opacity": 1,
+                  "supportsGetLegendGraphic": true,
+                  "dateFormat": "mmmm yyyy",
+                  "initialTimeSource": "stop",
+                  "layers": "modis_tot_cov_monthly",
+                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
+                  "linkedWcsCoverage": "modis_tot_cov_monthly",
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "id": "idvaI5",
+                  "shareKeys": [
+                    "Root Group/Australia/Vegetation Cover (MODIS, 500m)/Monthly/Total Vegetation Cover (PV+NPV, Monthly)"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Vegetation Cover Anomaly (Monthly)",
+                  "url": "https://gsky.nci.org.au/ows/geoglam",
+                  "cacheDuration": "2h",
+                  "opacity": 1,
+                  "supportsGetLegendGraphic": true,
+                  "dateFormat": "mmmm yyyy",
+                  "initialTimeSource": "stop",
+                  "layers": "modis_tot_cov_anomaly",
+                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
+                  "linkedWcsCoverage": "modis_tot_cov_anomaly",
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "id": "VEKda4",
+                  "shareKeys": [
+                    "Root Group/Australia/Vegetation Cover (MODIS, 500m)/Monthly/Vegetation Cover Anomaly (Monthly)"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Vegetation Cover Deciles (Monthly)",
+                  "url": "https://gsky.nci.org.au/ows/geoglam",
+                  "cacheDuration": "2h",
+                  "opacity": 1,
+                  "supportsGetLegendGraphic": true,
+                  "dateFormat": "mmmm yyyy",
+                  "initialTimeSource": "stop",
+                  "layers": "modis_tot_cov_decile",
+                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
+                  "linkedWcsCoverage": "modis_tot_cov_decile",
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "id": "HjrsGV",
+                  "shareKeys": [
+                    "Root Group/Australia/Vegetation Cover (MODIS, 500m)/Monthly/Vegetation Cover Deciles (Monthly)"
+                  ]
+                }
+              ],
+              "isOpen": true,
+              "shareKeys": [
+                "Root Group/Australia/Vegetation Cover (MODIS, 500m)/Monthly"
+              ]
+            },
+            {
+              "id": "fcmMXL",
+              "type": "group",
+              "name": "8-day",
+              "members": [
+                {
+                  "type": "wms",
+                  "name": "Vegetation Fractional Cover (PV, NPV & BS) (8-day)",
+                  "url": "https://gsky.nci.org.au/ows/geoglam",
+                  "cacheDuration": "2h",
+                  "opacity": 1,
+                  "supportsGetLegendGraphic": true,
+                  "dateFormat": "dd/mm/yyyy",
+                  "initialTimeSource": "stop",
+                  "layers": "modis_fract_cov_8day",
+                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
+                  "linkedWcsCoverage": "modis_fract_cov_8day",
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "id": "adTFmT",
+                  "shareKeys": [
+                    "Root Group/Australia/Vegetation Cover (MODIS, 500m)/8-day/Vegetation Fractional Cover (PV, NPV & BS) (8-day)"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Total Vegetation Cover (PV+NPV) (8-day)",
+                  "url": "https://gsky.nci.org.au/ows/geoglam",
+                  "cacheDuration": "2h",
+                  "opacity": 1,
+                  "supportsGetLegendGraphic": true,
+                  "dateFormat": "dd/mm/yyyy",
+                  "initialTimeSource": "stop",
+                  "layers": "modis_tot_cov_8day",
+                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
+                  "linkedWcsCoverage": "modis_tot_cov_8day",
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "id": "5b4IfD",
+                  "shareKeys": [
+                    "Root Group/Australia/Vegetation Cover (MODIS, 500m)/8-day/Total Vegetation Cover (PV+NPV) (8-day)"
+                  ]
+                }
+              ],
+              "isOpen": true,
+              "shareKeys": [
+                "Root Group/Australia/Vegetation Cover (MODIS, 500m)/8-day"
+              ]
+            },
+            {
+              "id": "4ME4y3",
+              "type": "group",
+              "name": "summaries",
+              "members": [
+                {
+                  "id": "sjVGwj",
+                  "type": "group",
+                  "name": "Frequency of Total Veg Cover below 30%",
+                  "members": [
+                    {
+                      "type": "wms",
+                      "name": "Annual - Tot Cov below 30%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "annual_30",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_30.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "YQQigC",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 30%/Annual - Tot Cov below 30%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "January - Tot Cov below 30%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Jan_30",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_30.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "mChkXZ",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 30%/January - Tot Cov below 30%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "February - Tot Cov below 30%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Feb_30",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_30.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "Jkwnk5",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 30%/February - Tot Cov below 30%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "March - Tot Cov below 30%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Mar_30",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_30.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "aps3g2",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 30%/March - Tot Cov below 30%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "April - Tot Cov below 30%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Apr_30",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_30.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "BCQF74",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 30%/April - Tot Cov below 30%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "May - Tot Cov below 30%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "May_30",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_30.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "BxYcHm",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 30%/May - Tot Cov below 30%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "June - Tot Cov below 30%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Jun_30",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_30.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "3ycSGZ",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 30%/June - Tot Cov below 30%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "July - Tot Cov below 30%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Jul_30",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_30.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "z5acm8",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 30%/July - Tot Cov below 30%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "August - Tot Cov below 30%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Aug_30",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_30.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "aT6s2G",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 30%/August - Tot Cov below 30%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "September - Tot Cov below 30%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Sep_30",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_30.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "kqdgmY",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 30%/September - Tot Cov below 30%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "October - Tot Cov below 30%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Oct_30",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_30.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "xCY8TC",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 30%/October - Tot Cov below 30%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "November - Tot Cov below 30%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Nov_30",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_30.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "PyvVzL",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 30%/November - Tot Cov below 30%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "December - Tot Cov below 30%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Dec_30",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_30.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "gegNPZ",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 30%/December - Tot Cov below 30%"
+                      ]
+                    }
+                  ],
+                  "isOpen": false,
+                  "shareKeys": [
+                    "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 30%"
+                  ]
+                },
+                {
+                  "id": "H1r27U",
+                  "type": "group",
+                  "name": "Frequency of Total Veg Cover below 50%",
+                  "members": [
+                    {
+                      "type": "wms",
+                      "name": "Annual - Tot Cov below 50%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "annual_50",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_50.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "t6lV4B",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 50%/Annual - Tot Cov below 50%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "January - Tot Cov below 50%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Jan_50",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_50.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "SaLUDD",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 50%/January - Tot Cov below 50%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "February - Tot Cov below 50%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Feb_50",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_50.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "fYt5j8",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 50%/February - Tot Cov below 50%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "March - Tot Cov below 50%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Mar_50",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_50.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "uyPiFq",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 50%/March - Tot Cov below 50%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "April - Tot Cov below 50%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Apr_50",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_50.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "5a1Umw",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 50%/April - Tot Cov below 50%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "May - Tot Cov below 50%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "May_50",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_50.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "C8dh1w",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 50%/May - Tot Cov below 50%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "June - Tot Cov below 50%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Jun_50",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_50.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "KnvjSl",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 50%/June - Tot Cov below 50%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "July - Tot Cov below 50%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Jul_50",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_50.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "Fgbg5P",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 50%/July - Tot Cov below 50%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "August - Tot Cov below 50%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Aug_50",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_50.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "UCwbXw",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 50%/August - Tot Cov below 50%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "September - Tot Cov below 50%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Sep_50",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_50.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "bDb6eb",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 50%/September - Tot Cov below 50%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "October - Tot Cov below 50%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Oct_50",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_50.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "bVlee4",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 50%/October - Tot Cov below 50%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "November - Tot Cov below 50%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Nov_50",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_50.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "MTFSkt",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 50%/November - Tot Cov below 50%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "December - Tot Cov below 50%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Dec_50",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_50.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "AAryEQ",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 50%/December - Tot Cov below 50%"
+                      ]
+                    }
+                  ],
+                  "isOpen": false,
+                  "shareKeys": [
+                    "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 50%"
+                  ]
+                },
+                {
+                  "id": "zYuIDN",
+                  "type": "group",
+                  "name": "Frequency of Total Veg Cover below 70%",
+                  "members": [
+                    {
+                      "type": "wms",
+                      "name": "Annual - Tot Cov below 70%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "annual_70",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_70.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "aTTdpE",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 70%/Annual - Tot Cov below 70%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "January - Tot Cov below 70%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Jan_70",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_70.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "BFEvgV",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 70%/January - Tot Cov below 70%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "February - Tot Cov below 70%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Feb_70",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_70.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "KbvyvV",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 70%/February - Tot Cov below 70%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "March - Tot Cov below 70%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Mar_70",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_70.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "MBU2Ii",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 70%/March - Tot Cov below 70%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "April - Tot Cov below 70%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Apr_70",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_70.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "eAh68U",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 70%/April - Tot Cov below 70%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "May - Tot Cov below 70%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "May_70",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_70.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "TFy471",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 70%/May - Tot Cov below 70%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "June - Tot Cov below 70%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Jun_70",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_70.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "DwJVSM",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 70%/June - Tot Cov below 70%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "July - Tot Cov below 70%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Jul_70",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_70.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "uL8IvC",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 70%/July - Tot Cov below 70%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "August - Tot Cov below 70%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Aug_70",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_70.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "ZYjqtU",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 70%/August - Tot Cov below 70%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "September - Tot Cov below 70%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Sep_70",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_70.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "i6JeTu",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 70%/September - Tot Cov below 70%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "October - Tot Cov below 70%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Oct_70",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_70.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "72NLQd",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 70%/October - Tot Cov below 70%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "November - Tot Cov below 70%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Nov_70",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_70.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "hl3sMY",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 70%/November - Tot Cov below 70%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "December - Tot Cov below 70%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Dec_70",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_70.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "fbBwzR",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 70%/December - Tot Cov below 70%"
+                      ]
+                    }
+                  ],
+                  "isOpen": false,
+                  "shareKeys": [
+                    "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 70%"
+                  ]
+                },
+                {
+                  "id": "z6REpm",
+                  "type": "group",
+                  "name": "Frequency of Total Veg Cover below 80%",
+                  "members": [
+                    {
+                      "type": "wms",
+                      "name": "Annual - Tot Cov below 80%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "annual_80",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_80.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "e1P4Wc",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 80%/Annual - Tot Cov below 80%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "January - Tot Cov below 80%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Jan_80",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_80.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "x7uull",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 80%/January - Tot Cov below 80%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "February - Tot Cov below 80%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Feb_80",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_80.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "Yqbarx",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 80%/February - Tot Cov below 80%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "March - Tot Cov below 80%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Mar_80",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_80.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "vcLBXs",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 80%/March - Tot Cov below 80%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "April - Tot Cov below 80%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Apr_80",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_80.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "qZGDEl",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 80%/April - Tot Cov below 80%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "May - Tot Cov below 80%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "May_80",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_80.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "SvPq1f",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 80%/May - Tot Cov below 80%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "June - Tot Cov below 80%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Jun_80",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_80.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "Ru6Guv",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 80%/June - Tot Cov below 80%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "July - Tot Cov below 80%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Jul_80",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_80.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "l8kFwV",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 80%/July - Tot Cov below 80%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "August - Tot Cov below 80%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Aug_80",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_80.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "aTylmX",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 80%/August - Tot Cov below 80%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "September - Tot Cov below 80%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Sep_80",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_80.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "5UxCvK",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 80%/September - Tot Cov below 80%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "October - Tot Cov below 80%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Oct_80",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_80.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "LVDPFB",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 80%/October - Tot Cov below 80%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "November - Tot Cov below 80%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Nov_80",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_80.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "rA3e5V",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 80%/November - Tot Cov below 80%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "December - Tot Cov below 80%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Dec_80",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_80.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "7D3JEV",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 80%/December - Tot Cov below 80%"
+                      ]
+                    }
+                  ],
+                  "isOpen": false,
+                  "shareKeys": [
+                    "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 80%"
+                  ]
+                },
+                {
+                  "id": "yB1s8Y",
+                  "type": "group",
+                  "name": "Frequency of Total Veg Cover below 90%",
+                  "members": [
+                    {
+                      "type": "wms",
+                      "name": "Annual - Tot Cov below 90%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "annual_90",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_90.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "RR2aLY",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 90%/Annual - Tot Cov below 90%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "January - Tot Cov below 90%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Jan_90",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_90.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "HBvj3U",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 90%/January - Tot Cov below 90%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "February - Tot Cov below 90%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Feb_90",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_90.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "EMKs6K",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 90%/February - Tot Cov below 90%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "March - Tot Cov below 90%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Mar_90",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_90.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "EjLa4j",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 90%/March - Tot Cov below 90%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "April - Tot Cov below 90%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Apr_90",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_90.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "rBmw3N",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 90%/April - Tot Cov below 90%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "May - Tot Cov below 90%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "May_90",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_90.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "Si7BF1",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 90%/May - Tot Cov below 90%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "June - Tot Cov below 90%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Jun_90",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_90.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "w41I82",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 90%/June - Tot Cov below 90%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "July - Tot Cov below 90%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Jul_90",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_90.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "z8WEmF",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 90%/July - Tot Cov below 90%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "August - Tot Cov below 90%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Aug_90",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_90.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "YV8PTg",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 90%/August - Tot Cov below 90%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "September - Tot Cov below 90%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Sep_90",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_90.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "1kyMmp",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 90%/September - Tot Cov below 90%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "October - Tot Cov below 90%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Oct_90",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_90.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "TsSKRs",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 90%/October - Tot Cov below 90%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "November - Tot Cov below 90%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Nov_90",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_90.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "PrcRVt",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 90%/November - Tot Cov below 90%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "December - Tot Cov below 90%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Dec_90",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_90.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "bDqZpx",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 90%/December - Tot Cov below 90%"
+                      ]
+                    }
+                  ],
+                  "isOpen": false,
+                  "shareKeys": [
+                    "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 90%"
+                  ]
+                },
+                {
+                  "id": "5P63Zv",
+                  "type": "group",
+                  "name": "Frequency of Total Veg Cover below 95%",
+                  "members": [
+                    {
+                      "type": "wms",
+                      "name": "Annual - Tot Cov below 95%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "annual_95",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_95.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "QMlKyR",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 95%/Annual - Tot Cov below 95%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "January - Tot Cov below 95%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Jan_95",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_95.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "DmX3Jv",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 95%/January - Tot Cov below 95%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "February - Tot Cov below 95%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Feb_95",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_95.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "DsMcqQ",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 95%/February - Tot Cov below 95%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "March - Tot Cov below 95%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Mar_95",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_95.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "2V4sGw",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 95%/March - Tot Cov below 95%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "April - Tot Cov below 95%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Apr_95",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_95.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "NckjJG",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 95%/April - Tot Cov below 95%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "May - Tot Cov below 95%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "May_95",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_95.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "dA8PT2",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 95%/May - Tot Cov below 95%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "June - Tot Cov below 95%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Jun_95",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_95.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "JHvnX4",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 95%/June - Tot Cov below 95%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "July - Tot Cov below 95%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Jul_95",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_95.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "6Jq4Ck",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 95%/July - Tot Cov below 95%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "August - Tot Cov below 95%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Aug_95",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_95.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "ml7FEz",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 95%/August - Tot Cov below 95%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "September - Tot Cov below 95%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Sep_95",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_95.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "AGqbir",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 95%/September - Tot Cov below 95%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "October - Tot Cov below 95%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Oct_95",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_95.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "MgHE6w",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 95%/October - Tot Cov below 95%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "November - Tot Cov below 95%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Nov_95",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_95.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "2SRzw7",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 95%/November - Tot Cov below 95%"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "December - Tot Cov below 95%",
+                      "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                      "opacity": 1,
+                      "layers": "Dec_95",
+                      "legends": [
+                        {
+                          "url": "https://eo-data.csiro.au/remotesensing/misc/frec_below_95.png"
+                        }
+                      ],
+                      "tileErrorHandlingOptions": {
+                        "ignoreUnknownTileErrors": true
+                      },
+                      "id": "rLE8HA",
+                      "shareKeys": [
+                        "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 95%/December - Tot Cov below 95%"
+                      ]
+                    }
+                  ],
+                  "isOpen": false,
+                  "shareKeys": [
+                    "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries/Frequency of Total Veg Cover below 95%"
+                  ]
+                }
+              ],
+              "isOpen": true,
+              "shareKeys": [
+                "Root Group/Australia/Vegetation Cover (MODIS, 500m)/summaries"
+              ]
+            }
+          ],
+          "isOpen": true,
+          "shareKeys": [
+            "Root Group/Australia/Vegetation Cover (MODIS, 500m)"
+          ]
+        },
+        {
+          "id": "JiYVSb",
+          "type": "group",
+          "name": "Vegetation Cover - Landsat/Sentinel (30/20 meters)",
+          "members": [
+            {
+              "type": "wms",
+              "name": "Seasonal fractional cover - Landsat, JRSRP algorithm",
+              "id": "d1d7d2ce-a702-4305-a030-4c49c208963e",
+              "url": "http://qld.auscover.org.au/geoserver/aus/wms",
+              "opacity": 1,
+              "dateFormat": "mmm yyyy",
+              "initialTimeSource": "stop",
+              "clipToRectangle": true,
+              "layers": "fractional_cover",
+              "legends": [
+                {
+                  "url": "https://vegmachine.net/assets/images/legend_triangleonly.png"
+                }
+              ],
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "shareKeys": [
+                "Root Group/Australia/Vegetation Cover - Landsat/Sentinel (30/20 meters)/Seasonal fractional cover - Landsat, JRSRP algorithm"
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Seasonal fractional cover - Sentinel 2, JRSRP algorithm",
+              "url": "http://qld.auscover.org.au/geoserver/aus/wms",
+              "opacity": 1,
+              "dateFormat": "mmm yyyy",
+              "initialTimeSource": "stop",
+              "clipToRectangle": true,
+              "layers": "sentinel_fractional",
+              "legends": [
+                {
+                  "url": "https://vegmachine.net/assets/images/legend_triangleonly.png"
+                }
+              ],
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "id": "UFjzZ4",
+              "shareKeys": [
+                "Root Group/Australia/Vegetation Cover - Landsat/Sentinel (30/20 meters)/Seasonal fractional cover - Sentinel 2, JRSRP algorithm"
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Seasonal Persistent Green Cover - Landsat, JRSRP algorithm",
+              "id": "25aec031-b165-4f9f-a346-e338c2a332fa",
+              "url": "http://qld.auscover.org.au/geoserver/aus/wms",
+              "opacity": 1,
+              "dateFormat": "mmm yyyy",
+              "initialTimeSource": "stop",
+              "clipToRectangle": true,
+              "layers": "persistent_green",
+              "legends": [
+                {
+                  "url": "https://vegmachine.net/assets/images/persistent_green_legend.png"
+                }
+              ],
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "shareKeys": [
+                "Root Group/Australia/Vegetation Cover - Landsat/Sentinel (30/20 meters)/Seasonal Persistent Green Cover - Landsat, JRSRP algorithm"
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Monthly Landsat Fractional Cover (experimental)",
+              "url": "https://geoglam.ternlandscapes.org.au/geoserver/test/wms",
+              "opacity": 1,
+              "dateFormat": "yyyy mmm",
+              "initialTimeSource": "stop",
+              "clipToRectangle": true,
+              "layers": "aust_monthly_median_frac_cover",
+              "legends": [
+                {
+                  "url": "https://gsky.nci.org.au/ows/geoglam?service=WMS&version=1.1.0&request=GetLegendGraphic&format=image%2Fpng&transparent=True&layer=modis_fract_cov_8day&srs=EPSG%3A3857"
+                }
+              ],
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "id": "h7tQsu",
+              "shareKeys": [
+                "Root Group/Australia/Vegetation Cover - Landsat/Sentinel (30/20 meters)/Monthly Landsat Fractional Cover (experimental)"
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Daily Fractional Cover Landsat",
+              "url": "https://ows.dea.ga.gov.au/",
+              "opacity": 1,
+              "dateFormat": "yyyy mmm dd",
+              "clipToRectangle": true,
+              "layers": "ga_ls_fc_3",
+              "timeFilterPropertyName": "data_available_for_dates",
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "id": "USq2cD",
+              "shareKeys": [
+                "Root Group/Australia/Vegetation Cover - Landsat/Sentinel (30/20 meters)/Daily Fractional Cover Landsat"
+              ]
+            }
+          ],
+          "shareKeys": [
+            "Root Group/Australia/Vegetation Cover - Landsat/Sentinel (30/20 meters)"
+          ]
+        },
+        {
+          "id": "dd2xPE",
+          "type": "group",
+          "name": "Land Use / Land Cover",
+          "members": [
+            {
+              "type": "wms",
+              "name": "Catchment Scale Land Use and Forests of Australia (2018) [13 classes]",
+              "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+              "opacity": 1,
+              "clipToRectangle": true,
+              "layers": "aus_forest_landuse2018",
+              "featureInfoTemplate": {
+                "template": "<p style='clear: right'><strong>Class:</strong> <br/> <span style='white-space: nowrap' class='landuseforest{{class}}'></span></p>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "id": "aVKYh2",
+              "shareKeys": [
+                "Root Group/Australia/Land Use / Land Cover/Catchment Scale Land Use and Forests of Australia (2018) [13 classes]"
+              ]
+            },
+            {
+              "id": "dxfr5f",
+              "type": "group",
+              "name": " Catchment Scale Land Use 2018",
+              "members": [
+                {
+                  "type": "esri-mapServer",
+                  "name": "Catchment Scale Land Use 2018 [18 class]",
+                  "url": "http://www.asris.csiro.au/arcgis/rest/services/abares/clum_50m_2018/MapServer/0",
+                  "opacity": 1,
+                  "clipToRectangle": true,
+                  "id": "uhrADC",
+                  "shareKeys": [
+                    "Root Group/Australia/Land Use / Land Cover/ Catchment Scale Land Use 2018/Catchment Scale Land Use 2018 [18 class]"
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "name": "Catchment Scale Land Use 2018 [Secondary classification]",
+                  "url": "http://www.asris.csiro.au/arcgis/rest/services/abares/clum_50m_2018/MapServer/2",
+                  "opacity": 1,
+                  "clipToRectangle": true,
+                  "id": "VBAmBk",
+                  "shareKeys": [
+                    "Root Group/Australia/Land Use / Land Cover/ Catchment Scale Land Use 2018/Catchment Scale Land Use 2018 [Secondary classification]"
+                  ]
+                }
+              ],
+              "isOpen": true,
+              "shareKeys": [
+                "Root Group/Australia/Land Use / Land Cover/ Catchment Scale Land Use 2018"
+              ]
+            },
+            {
+              "id": "sZvA8n",
+              "type": "group",
+              "name": " Forests of Australia 2018",
+              "members": [
+                {
+                  "type": "wms",
+                  "name": "Forests of Australia 2018 [by forest type-condensed]",
+                  "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+                  "opacity": 1,
+                  "clipToRectangle": true,
+                  "layers": "aus_forest2018_3class",
+                  "featureInfoTemplate": {
+                    "template": "<p style='clear: right'><strong>Class:</strong> <br/> <span style='white-space: nowrap' class='forestclass{{class}}'></span></p>"
+                  },
+                  "legends": [
+                    {
+                      "url": "https://eo-data.csiro.au/remotesensing/misc/sItMvgy5pEf_uRU5JcKvSOw.png"
+                    }
+                  ],
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "id": "y4V8C4",
+                  "shareKeys": [
+                    "Root Group/Australia/Land Use / Land Cover/ Forests of Australia 2018/Forests of Australia 2018 [by forest type-condensed]"
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "name": "Forests of Australia 2018 [by forest type]",
+                  "url": "http://www.asris.csiro.au/arcgis/rest/services/abares/forests_of_australia_2018/MapServer/0",
+                  "opacity": 1,
+                  "clipToRectangle": true,
+                  "id": "ISRGPP",
+                  "shareKeys": [
+                    "Root Group/Australia/Land Use / Land Cover/ Forests of Australia 2018/Forests of Australia 2018 [by forest type]"
+                  ]
+                }
+              ],
+              "isOpen": true,
+              "shareKeys": [
+                "Root Group/Australia/Land Use / Land Cover/ Forests of Australia 2018"
+              ]
+            },
+            {
+              "type": "esri-mapServer",
+              "name": "Collaborative Australian Protected Areas Database (CAPAD)",
+              "id": "126ff747-1594-4168-b691-ddaf2202d56e",
+              "url": "http://www.environment.gov.au/mapping/rest/services/ogc_services/capad/MapServer/0",
+              "opacity": 1,
+              "clipToRectangle": true,
+              "shareKeys": [
+                "Root Group/Australia/Land Use / Land Cover/Collaborative Australian Protected Areas Database (CAPAD)"
+              ]
+            },
+            {
+              "type": "esri-mapServer",
+              "name": "Ramsar Wetlands of Australia",
+              "id": "bdb6a2aa-ad05-48bc-b8ce-216590485d2f",
+              "url": "http://www.environment.gov.au/mapping/rest/services/ogc_services/Ramsar_Wetlands/MapServer",
+              "opacity": 1,
+              "clipToRectangle": true,
+              "layers": "Ramsar_Wetlands",
+              "shareKeys": [
+                "Root Group/Australia/Land Use / Land Cover/Ramsar Wetlands of Australia"
+              ]
+            },
+            {
+              "type": "esri-mapServer",
+              "name": "Interim Biogeographic Regionalisation for Australia (IBRA) version 7.0 Regions",
+              "id": "93a9b3b8-00b1-44f0-a202-d0e4f86271b8",
+              "url": "http://www.environment.gov.au/mapping/rest/services/ogc_services/IBRA7_Regions/MapServer",
+              "opacity": 1,
+              "clipToRectangle": true,
+              "layers": "IBRA7 regions",
+              "shareKeys": [
+                "Root Group/Australia/Land Use / Land Cover/Interim Biogeographic Regionalisation for Australia (IBRA) version 7.0 Regions"
+              ]
+            },
+            {
+              "type": "esri-mapServer",
+              "name": "Interim Biogeographic Regionalisation for Australia (IBRA) version 7.0 Subregions",
+              "id": "fa38c8cc-8e0e-4609-8743-1e6461e44118",
+              "url": "http://www.environment.gov.au/mapping/rest/services/ogc_services/IBRA7_Subregions/MapServer",
+              "opacity": 1,
+              "clipToRectangle": true,
+              "layers": "IBRA7 subregions",
+              "shareKeys": [
+                "Root Group/Australia/Land Use / Land Cover/Interim Biogeographic Regionalisation for Australia (IBRA) version 7.0 Subregions"
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Vegetation height and structure",
+              "url": "http://qld.auscover.org.au/geoserver/aus/wms",
+              "opacity": 1,
+              "clipToRectangle": true,
+              "layers": "structuralForm",
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "id": "ssTyjc",
+              "shareKeys": [
+                "Root Group/Australia/Land Use / Land Cover/Vegetation height and structure"
+              ]
+            },
+            {
+              "type": "ckan-item",
+              "name": "Observed major vegetation subgroups, from Australia's NVIS database",
+              "id": "662d6a05-6bc9-40ab-aa4f-b9822dd22fcd",
+              "url": "proxy/_60s/https://data.gov.au",
+              "cacheDuration": "1h",
+              "datasetId": "2016-soe-lan-climate-scenarios-observed",
+              "resourceId": "662d6a05-6bc9-40ab-aa4f-b9822dd22fcd",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-climate-scenarios-observed"
+                  }
+                ],
+                "clipToRectangle": true,
+                "ignoreUnknownTileErrors": true
+              },
+              "supportedResourceFormats": [],
+              "shareKeys": [
+                "Root Group/Australia/Land Use / Land Cover/Observed major vegetation subgroups, from Australia's NVIS database"
+              ]
+            }
+          ],
+          "shareKeys": [
+            "Root Group/Australia/Land Use / Land Cover"
+          ]
+        },
+        {
+          "id": "BGYg6u",
+          "type": "group",
+          "name": "Landscape Attributes",
+          "members": [
+            {
+              "type": "esri-mapServer",
+              "name": "Physiographic Regions of Australia",
+              "id": "14887171-5354-4bb3-8395-986d6f41a947",
+              "url": "http://www.asris.csiro.au/arcgis/rest/services/ASRIS/ASRIS_L2/MapServer",
+              "opacity": 1,
+              "clipToRectangle": true,
+              "layers": "L2 Regions",
+              "shareKeys": [
+                "Root Group/Australia/Landscape Attributes/Physiographic Regions of Australia"
+              ]
+            },
+            {
+              "type": "esri-mapServer",
+              "name": "Slope [percent] Median 300m Radius",
+              "url": "http://www.asris.csiro.au/arcgis/rest/services/TERN/SRTM_attributes_3s_ACLEP_AU/MapServer",
+              "opacity": 1,
+              "clipToRectangle": true,
+              "layers": "9",
+              "id": "4yruyy",
+              "shareKeys": [
+                "Root Group/Australia/Landscape Attributes/Slope [percent] Median 300m Radius"
+              ]
+            },
+            {
+              "type": "ckan-item",
+              "name": "Generalised map of soil orders for Australia",
+              "id": "ee9d9cae-188e-4160-9d36-3d1b19b3ea58",
+              "url": "proxy/_60s/https://data.gov.au",
+              "cacheDuration": "1h",
+              "datasetId": "2016-soe-lan-soil-classification",
+              "resourceId": "ee9d9cae-188e-4160-9d36-3d1b19b3ea58",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-soil-classification"
+                  }
+                ],
+                "clipToRectangle": true,
+                "ignoreUnknownTileErrors": true
+              },
+              "supportedResourceFormats": [],
+              "shareKeys": [
+                "Root Group/Australia/Landscape Attributes/Generalised map of soil orders for Australia"
+              ]
+            }
+          ],
+          "shareKeys": [
+            "Root Group/Australia/Landscape Attributes"
+          ]
+        },
+        {
+          "id": "NZF1Kl",
+          "type": "group",
+          "name": "Boundaries",
+          "members": [
+            {
+              "type": "esri-mapServer",
+              "name": "Australian Rangelands",
+              "id": "9bbcc69f-2892-438a-93e0-31688c52e97c",
+              "url": "http://www.environment.gov.au/mapping/rest/services/ogc_services/Rangelands/MapServer/",
+              "clipToRectangle": true,
+              "layers": "Rangelands",
+              "shareKeys": [
+                "Root Group/Australia/Boundaries/Australian Rangelands"
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "NRM Regions 2017",
+              "url": "https://geoglam.ternlandscapes.org.au/geoserver/aust/wms",
+              "opacity": 1,
+              "layers": "NRM_2017",
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "keepOnTop": true,
+              "id": "nrm-regions-2017",
+              "shareKeys": [
+                "Root Group/Australia/Boundaries/NRM Regions 2017"
+              ]
+            },
+            {
+              "type": "esri-mapServer",
+              "name": "Local Government Areas",
+              "id": "061918ff-d997-4c42-8e5e-6dd9452ceb61",
+              "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2019/LGA/MapServer/0",
+              "opacity": 1,
+              "clipToRectangle": true,
+              "keepOnTop": true,
+              "shareKeys": [
+                "Root Group/Australia/Boundaries/Local Government Areas"
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "River Regions (Bureau of Meteorology)",
+              "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+              "opacity": 1,
+              "clipToRectangle": true,
+              "layers": "ahgf_hrr:RiverRegion",
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "id": "aVKS4h",
+              "shareKeys": [
+                "Root Group/Australia/Boundaries/River Regions (Bureau of Meteorology)"
+              ]
+            },
+            {
+              "id": "g2ngY7",
+              "type": "group",
+              "name": "Statistical Regions (Australian Bureau of Statistics)",
+              "members": [
+                {
+                  "type": "wms",
+                  "name": "Mesh Blocks (Australian Bureau of Statistics)",
+                  "url": "http://geoserver.nationalmap.nicta.com.au/admin_bnds_abs/ows",
+                  "opacity": 1,
+                  "isOpenInWorkbench": false,
+                  "clipToRectangle": true,
+                  "layers": "admin_bnds:MB_2011_ACT,admin_bnds:MB_2011_NSW,admin_bnds:MB_2011_NT,admin_bnds:MB_2011_OT,admin_bnds:MB_2011_QLD,admin_bnds:MB_2011_SA,admin_bnds:MB_2011_TAS,admin_bnds:MB_2011_VIC,admin_bnds:MB_2011_WA",
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "id": "WhdgwT",
+                  "shareKeys": [
+                    "Root Group/Australia/Boundaries/Statistical Regions (Australian Bureau of Statistics)/Mesh Blocks (Australian Bureau of Statistics)"
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "name": "Suburbs (SSC) (Australian Bureau of Statistics)",
+                  "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2016/SSC/MapServer/0",
+                  "opacity": 1,
+                  "isOpenInWorkbench": false,
+                  "clipToRectangle": true,
+                  "keepOnTop": true,
+                  "id": "ELWXbe",
+                  "shareKeys": [
+                    "Root Group/Australia/Boundaries/Statistical Regions (Australian Bureau of Statistics)/Suburbs (SSC) (Australian Bureau of Statistics)"
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "name": "Statistical area level 1 (SA1) (Australian Bureau of Statistics)",
+                  "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2016/SA1/MapServer/1",
+                  "opacity": 1,
+                  "isOpenInWorkbench": false,
+                  "clipToRectangle": true,
+                  "keepOnTop": true,
+                  "id": "Fm357f",
+                  "shareKeys": [
+                    "Root Group/Australia/Boundaries/Statistical Regions (Australian Bureau of Statistics)/Statistical area level 1 (SA1) (Australian Bureau of Statistics)"
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "name": "Statistical area level 2 (SA2) (Australian Bureau of Statistics)",
+                  "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2016/SA2/MapServer/1",
+                  "opacity": 1,
+                  "isOpenInWorkbench": false,
+                  "clipToRectangle": true,
+                  "keepOnTop": true,
+                  "id": "mANAUY",
+                  "shareKeys": [
+                    "Root Group/Australia/Boundaries/Statistical Regions (Australian Bureau of Statistics)/Statistical area level 2 (SA2) (Australian Bureau of Statistics)"
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "name": "Statistical area level 3 (SA3) (Australian Bureau of Statistics)",
+                  "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2016/SA3/MapServer/1",
+                  "opacity": 1,
+                  "isOpenInWorkbench": false,
+                  "clipToRectangle": true,
+                  "keepOnTop": true,
+                  "id": "pmynk5",
+                  "shareKeys": [
+                    "Root Group/Australia/Boundaries/Statistical Regions (Australian Bureau of Statistics)/Statistical area level 3 (SA3) (Australian Bureau of Statistics)"
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "name": "Statistical area level 4 (SA4) (Australian Bureau of Statistics)",
+                  "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2016/SA4/MapServer/1",
+                  "opacity": 1,
+                  "isOpenInWorkbench": false,
+                  "clipToRectangle": true,
+                  "keepOnTop": true,
+                  "id": "bFmQ4u",
+                  "shareKeys": [
+                    "Root Group/Australia/Boundaries/Statistical Regions (Australian Bureau of Statistics)/Statistical area level 4 (SA4) (Australian Bureau of Statistics)"
+                  ]
+                }
+              ],
+              "isOpen": true,
+              "shareKeys": [
+                "Root Group/Australia/Boundaries/Statistical Regions (Australian Bureau of Statistics)"
+              ]
+            },
+            {
+              "id": "5St3z4",
+              "type": "group",
+              "name": "Cadastre",
+              "members": [
+                {
+                  "type": "esri-mapServer",
+                  "name": "QLD - Cadastral Parcels - gt 10ha",
+                  "url": "https://gisservices.information.qld.gov.au/arcgis/rest/services/PlanningCadastre/LandParcelPropertyFramework/MapServer",
+                  "opacity": 1,
+                  "layers": "6",
+                  "keepOnTop": true,
+                  "id": "hUQRC4",
+                  "shareKeys": [
+                    "Root Group/Australia/Boundaries/Cadastre/QLD - Cadastral Parcels - gt 10ha"
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "name": "NSW - \"Rural Plan Extent\"",
+                  "url": "http://maps.six.nsw.gov.au/arcgis/rest/services/public/NSW_Cadastre/MapServer",
+                  "opacity": 1,
+                  "layers": "6",
+                  "keepOnTop": true,
+                  "id": "lB2R8a",
+                  "shareKeys": [
+                    "Root Group/Australia/Boundaries/Cadastre/NSW - \"Rural Plan Extent\""
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "name": "NSW - \"Lot\"",
+                  "url": "http://maps.six.nsw.gov.au/arcgis/rest/services/public/NSW_Cadastre/MapServer",
+                  "opacity": 1,
+                  "layers": "9",
+                  "keepOnTop": true,
+                  "id": "QjZEib",
+                  "shareKeys": [
+                    "Root Group/Australia/Boundaries/Cadastre/NSW - \"Lot\""
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Vic- \"Vicmap Property with Address Join\"",
+                  "url": "http://services.land.vic.gov.au/catalogue/publicproxy/guest/dv_geoserver/wms",
+                  "opacity": 1,
+                  "layers": "VMPROP_PROPERTY_ADDRESS",
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "id": "NUUDw4",
+                  "shareKeys": [
+                    "Root Group/Australia/Boundaries/Cadastre/Vic- \"Vicmap Property with Address Join\""
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "name": "Wa - \"Cadastre\"",
+                  "url": "https://services.slip.wa.gov.au/public/rest/services/SLIP_Public_Services/Property_and_Planning/MapServer/2",
+                  "opacity": 1,
+                  "layers": "2",
+                  "keepOnTop": true,
+                  "id": "LeDkNK",
+                  "shareKeys": [
+                    "Root Group/Australia/Boundaries/Cadastre/Wa - \"Cadastre\""
+                  ]
+                }
+              ],
+              "isOpen": true,
+              "shareKeys": [
+                "Root Group/Australia/Boundaries/Cadastre"
+              ]
+            }
+          ],
+          "shareKeys": [
+            "Root Group/Australia/Boundaries"
+          ]
+        },
+        {
+          "id": "KnjqGN",
+          "type": "group",
+          "name": "Surface Water",
+          "members": [
+            {
+              "id": "P3CS5D",
+              "type": "group",
+              "name": "Water Observations from Space",
+              "members": [
+                {
+                  "type": "wms",
+                  "name": "Water Observations from Space 25m Water Summary (WOfS Statistics)",
+                  "url": "https://ows.services.dea.ga.gov.au/",
+                  "opacity": 1,
+                  "clipToRectangle": true,
+                  "layers": "wofs_filtered_summary",
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "id": "4JMaNi",
+                  "shareKeys": [
+                    "Root Group/Australia/Surface Water/Water Observations from Space/Water Observations from Space 25m Water Summary (WOfS Statistics)"
+                  ]
+                }
+              ],
+              "shareKeys": [
+                "Root Group/Australia/Surface Water/Water Observations from Space"
+              ]
+            }
+          ],
+          "shareKeys": [
+            "Root Group/Australia/Surface Water"
+          ]
+        },
+        {
+          "id": "gGDWLa",
+          "type": "group",
+          "name": "Transport",
+          "members": [
+            {
+              "id": "iA4LbY",
+              "type": "group",
+              "name": "Roads",
+              "members": [
+                {
+                  "type": "esri-mapServer",
+                  "name": "Roads",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Transport_Infrastructure/MapServer",
+                  "opacity": 1,
+                  "clipToRectangle": true,
+                  "layers": "All_Roads,Roads_Scale_600000_to_300000,Roads_Scale_7Million_to_600000,Major_Road_Network,No_Data",
+                  "keepOnTop": true,
+                  "id": "MUEp38",
+                  "shareKeys": [
+                    "Root Group/Australia/Transport/Roads/Roads"
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "name": "Route Number Labels",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Transport_Infrastructure/MapServer",
+                  "opacity": 1,
+                  "clipToRectangle": true,
+                  "layers": "National_Route_Number_Labels,No_Data,No_Labels_National_Scale_to_10Million_Scale",
+                  "keepOnTop": true,
+                  "id": "wIJnBf",
+                  "shareKeys": [
+                    "Root Group/Australia/Transport/Roads/Route Number Labels"
+                  ]
+                }
+              ],
+              "shareKeys": [
+                "Root Group/Australia/Transport/Roads"
+              ]
+            }
+          ],
+          "shareKeys": [
+            "Root Group/Australia/Transport"
+          ]
+        }
+      ],
+      "shareKeys": [
+        "Root Group/Australia"
+      ]
+    },
+    {
+      "id": "CFbWUS",
+      "type": "group",
+      "name": "Global",
+      "members": [
+        {
+          "id": "wcbswd",
+          "type": "group",
+          "name": "Vegetation Cover (MODIS, 500m)",
+          "members": [
+            {
+              "id": "zwI2qF",
+              "type": "group",
+              "name": "Monthly",
+              "members": [
+                {
+                  "type": "wms",
+                  "name": "Vegetation Fractional Cover (PV, NPV & BS, Monthly)",
+                  "url": "https://gsky.nci.org.au/ows/geoglam",
+                  "cacheDuration": "2h",
+                  "opacity": 1,
+                  "supportsGetLegendGraphic": true,
+                  "dateFormat": "mmmm yyyy",
+                  "initialTimeSource": "stop",
+                  "layers": "modis_fract_cov_monthly",
+                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
+                  "linkedWcsCoverage": "modis_fract_cov_monthly",
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "id": "7tWKTf",
+                  "shareKeys": [
+                    "Root Group/Global/Vegetation Cover (MODIS, 500m)/Monthly/Vegetation Fractional Cover (PV, NPV & BS, Monthly)"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Total Vegetation Cover (PV+NPV, Monthly)",
+                  "url": "https://gsky.nci.org.au/ows/geoglam",
+                  "cacheDuration": "2h",
+                  "opacity": 1,
+                  "supportsGetLegendGraphic": true,
+                  "dateFormat": "mmmm yyyy",
+                  "initialTimeSource": "stop",
+                  "layers": "modis_tot_cov_monthly",
+                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
+                  "linkedWcsCoverage": "modis_tot_cov_monthly",
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "id": "drQdp8",
+                  "shareKeys": [
+                    "Root Group/Global/Vegetation Cover (MODIS, 500m)/Monthly/Total Vegetation Cover (PV+NPV, Monthly)"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Vegetation Cover Anomaly (Monthly)",
+                  "url": "https://gsky.nci.org.au/ows/geoglam",
+                  "cacheDuration": "2h",
+                  "opacity": 1,
+                  "supportsGetLegendGraphic": true,
+                  "dateFormat": "mmmm yyyy",
+                  "initialTimeSource": "stop",
+                  "layers": "modis_tot_cov_anomaly",
+                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
+                  "linkedWcsCoverage": "modis_tot_cov_anomaly",
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "id": "hZ1gQn",
+                  "shareKeys": [
+                    "Root Group/Global/Vegetation Cover (MODIS, 500m)/Monthly/Vegetation Cover Anomaly (Monthly)"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Vegetation Cover Deciles (Monthly)",
+                  "url": "https://gsky.nci.org.au/ows/geoglam",
+                  "cacheDuration": "2h",
+                  "opacity": 1,
+                  "supportsGetLegendGraphic": true,
+                  "dateFormat": "mmmm yyyy",
+                  "initialTimeSource": "stop",
+                  "layers": "modis_tot_cov_decile",
+                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
+                  "linkedWcsCoverage": "modis_tot_cov_decile",
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "id": "hNHQ5L",
+                  "shareKeys": [
+                    "Root Group/Global/Vegetation Cover (MODIS, 500m)/Monthly/Vegetation Cover Deciles (Monthly)"
+                  ]
+                }
+              ],
+              "isOpen": true,
+              "shareKeys": [
+                "Root Group/Global/Vegetation Cover (MODIS, 500m)/Monthly"
+              ]
+            },
+            {
+              "id": "Mt4IxT",
+              "type": "group",
+              "name": "8-day",
+              "members": [
+                {
+                  "type": "wms",
+                  "name": "Vegetation Fractional Cover (PV, NPV & BS) (8-day)",
+                  "url": "https://gsky.nci.org.au/ows/geoglam",
+                  "cacheDuration": "2h",
+                  "opacity": 1,
+                  "supportsGetLegendGraphic": true,
+                  "dateFormat": "dd/mm/yyyy",
+                  "initialTimeSource": "stop",
+                  "layers": "modis_fract_cov_8day",
+                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
+                  "linkedWcsCoverage": "modis_fract_cov_8day",
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "id": "NtruLn",
+                  "shareKeys": [
+                    "Root Group/Global/Vegetation Cover (MODIS, 500m)/8-day/Vegetation Fractional Cover (PV, NPV & BS) (8-day)"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Total Vegetation Cover (PV+NPV) (8-day)",
+                  "url": "https://gsky.nci.org.au/ows/geoglam",
+                  "cacheDuration": "2h",
+                  "opacity": 1,
+                  "supportsGetLegendGraphic": true,
+                  "dateFormat": "dd/mm/yyyy",
+                  "initialTimeSource": "stop",
+                  "layers": "modis_tot_cov_8day",
+                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
+                  "linkedWcsCoverage": "modis_tot_cov_8day",
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "id": "kwaW5j",
+                  "shareKeys": [
+                    "Root Group/Global/Vegetation Cover (MODIS, 500m)/8-day/Total Vegetation Cover (PV+NPV) (8-day)"
+                  ]
+                }
+              ],
+              "isOpen": true,
+              "shareKeys": [
+                "Root Group/Global/Vegetation Cover (MODIS, 500m)/8-day"
+              ]
+            }
+          ],
+          "isOpen": true,
+          "shareKeys": [
+            "Root Group/Global/Vegetation Cover (MODIS, 500m)"
+          ]
+        },
+        {
+          "id": "AsqHGH",
+          "type": "group",
+          "name": "Climate",
+          "members": [
+            {
+              "type": "wms",
+              "name": "Rainfall (CHIRPS, Global, 5km)",
+              "url": "https://gsky.nci.org.au/ows/geoglam",
+              "cacheDuration": "2h",
+              "opacity": 1,
+              "supportsGetLegendGraphic": true,
+              "dateFormat": "mmmm yyyy",
+              "initialTimeSource": "stop",
+              "layers": "chirps",
+              "legends": [
+                {
+                  "url": "https://eo-data.csiro.au/remotesensing/misc/CHIRPS_Legend.png"
+                }
+              ],
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "id": "WssjRM",
+              "shareKeys": [
+                "Root Group/Global/Climate/Rainfall (CHIRPS, Global, 5km)"
+              ]
+            }
+          ],
+          "shareKeys": [
+            "Root Group/Global/Climate"
+          ]
+        },
+        {
+          "id": "x2glJD",
+          "type": "group",
+          "name": "Land Use & Land Cover",
+          "members": [
+            {
+              "type": "wms",
+              "name": "Land Cover (GlobCover, 2009)",
+              "url": "https://geoglam.ternlandscapes.org.au/geoserver/global/wms",
+              "opacity": 1,
+              "layers": "GLOBCOVER",
+              "featureInfoTemplate": {
+                "template": "<p style='clear: right'><strong>Class:</strong> <br/> <span style='white-space: nowrap' class='globcover{{PALETTE_INDEX}}'></span></p>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "id": "rLlFFL",
+              "shareKeys": [
+                "Root Group/Global/Land Use & Land Cover/Land Cover (GlobCover, 2009)"
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Terrestrial Ecoregions of the World",
+              "url": "https://geoglam.ternlandscapes.org.au/geoserver/global/wms",
+              "opacity": 1,
+              "layers": "Terrestrial Ecoregions of the World",
+              "featureInfoTemplate": {
+                "name": "Terrestrial Ecoregions",
+                "template": "<table class='cesium-infoBox-defaultTable'><tbody>  <tr>    <td>Ecoregion Name</td>    <td>{{eco_name}}</td>  </tr><tr>    <td>Realm</td>    <td>{{wwf_realm2}}</td>  </tr><tr>    <td>Major Habitat Type</td>    <td>{{wwf_mhtnam}}</td>  </tr><tr>    <td>Data Source</td>    <td>{{sourcedata}}</td>  </tr></tbody></table>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "id": "HGxzIJ",
+              "shareKeys": [
+                "Root Group/Global/Land Use & Land Cover/Terrestrial Ecoregions of the World"
+              ]
+            }
+          ],
+          "shareKeys": [
+            "Root Group/Global/Land Use & Land Cover"
+          ]
+        },
+        {
+          "id": "Tr1Pkq",
+          "type": "group",
+          "name": "Livestock",
+          "members": [
+            {
+              "type": "wms",
+              "name": "Global Livestock Production Systems",
+              "url": "https://geoglam.ternlandscapes.org.au/geoserver/global/wms",
+              "opacity": 1,
+              "layers": "Livestock-prodsys",
+              "featureInfoTemplate": {
+                "template": "<p style='clear: right'><strong>Class:</strong> <br/> <span style='white-space: nowrap' class='livestock{{Classification}}'></span></p>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "id": "cMf84E",
+              "shareKeys": [
+                "Root Group/Global/Livestock/Global Livestock Production Systems"
+              ]
+            },
+            {
+              "id": "sFuHs8",
+              "type": "group",
+              "name": "Livestock Densities 2005 (Robinson et al 2014)",
+              "members": [
+                {
+                  "type": "wms",
+                  "name": "Cattle Density",
+                  "url": "https://geoglam.ternlandscapes.org.au/geoserver/global/wms",
+                  "opacity": 1,
+                  "layers": "Cattle-density",
+                  "featureInfoTemplate": {
+                    "name": "Cattle density in 2006",
+                    "template": "<table class='cesium-infoBox-defaultTable'><tbody>  <tr>    <td>Density (heads per sq km)</td>    <td>{{Density (heads per sq km)}}</td>  </tr></tbody></table>",
+                    "formats": {
+                      "Density (heads per sq km)": {
+                        "maximumFractionDigits": 2
+                      }
+                    }
+                  },
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "id": "ssSkRa",
+                  "shareKeys": [
+                    "Root Group/Global/Livestock/Livestock Densities 2005 (Robinson et al 2014)/Cattle Density"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Sheep Density",
+                  "url": "https://geoglam.ternlandscapes.org.au/geoserver/global/wms",
+                  "opacity": 1,
+                  "layers": "Sheep-density",
+                  "featureInfoTemplate": {
+                    "name": "Sheep density in 2006",
+                    "template": "<table class='cesium-infoBox-defaultTable'><tbody>  <tr>    <td>Density (heads per sq km)</td>    <td>{{Density(heads per sq km)}}</td>  </tr></tbody></table>",
+                    "formats": {
+                      "Density(heads per sq km)": {
+                        "maximumFractionDigits": 2
+                      }
+                    }
+                  },
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "id": "GvT4Vv",
+                  "shareKeys": [
+                    "Root Group/Global/Livestock/Livestock Densities 2005 (Robinson et al 2014)/Sheep Density"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Goat Density",
+                  "url": "https://geoglam.ternlandscapes.org.au/geoserver/global/wms",
+                  "opacity": 1,
+                  "layers": "Goat-density",
+                  "featureInfoTemplate": {
+                    "name": "Goat density in 2006",
+                    "template": "<table class='cesium-infoBox-defaultTable'><tbody>  <tr>    <td>Density (heads per sq km)</td>    <td>{{Density(heads per sq km)}}</td>  </tr></tbody></table>",
+                    "formats": {
+                      "Density(heads per sq km)": {
+                        "maximumFractionDigits": 2
+                      }
+                    }
+                  },
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "id": "umBqIs",
+                  "shareKeys": [
+                    "Root Group/Global/Livestock/Livestock Densities 2005 (Robinson et al 2014)/Goat Density"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Cattle Equivalents",
+                  "url": "https://geoglam.ternlandscapes.org.au/geoserver/global/wms",
+                  "opacity": 1,
+                  "layers": "Cattle-equivalents",
+                  "featureInfoTemplate": {
+                    "name": "FAO Livestock Unit North America density in 2006",
+                    "template": "<table class='cesium-infoBox-defaultTable'><tbody>  <tr>    <td>Density (heads per sq km)</td>    <td>{{Density(heads per sq km)}}</td>  </tr></tbody></table>",
+                    "formats": {
+                      "Density(heads per sq km)": {
+                        "maximumFractionDigits": 2
+                      }
+                    }
+                  },
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "id": "NhLIaB",
+                  "shareKeys": [
+                    "Root Group/Global/Livestock/Livestock Densities 2005 (Robinson et al 2014)/Cattle Equivalents"
+                  ]
+                }
+              ],
+              "shareKeys": [
+                "Root Group/Global/Livestock/Livestock Densities 2005 (Robinson et al 2014)"
+              ]
+            },
+            {
+              "id": "dxAZiE",
+              "type": "group",
+              "name": "Livestock Densities 2010 (Gilbert et al 2018)",
+              "members": [
+                {
+                  "type": "wms",
+                  "name": "Cattle Density",
+                  "url": "https://geoglam.ternlandscapes.org.au/geoserver/global/wms",
+                  "opacity": 1,
+                  "layers": "cattle_density_2010",
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "id": "6TYsxA",
+                  "shareKeys": [
+                    "Root Group/Global/Livestock/Livestock Densities 2010 (Gilbert et al 2018)/Cattle Density"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Sheep Density",
+                  "url": "https://geoglam.ternlandscapes.org.au/geoserver/global/wms",
+                  "opacity": 1,
+                  "layers": "sheep_density_2010",
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "id": "SUrfvr",
+                  "shareKeys": [
+                    "Root Group/Global/Livestock/Livestock Densities 2010 (Gilbert et al 2018)/Sheep Density"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Goat Density",
+                  "url": "https://geoglam.ternlandscapes.org.au/geoserver/global/wms",
+                  "opacity": 1,
+                  "layers": "goat_density_2010",
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "id": "DMbiAu",
+                  "shareKeys": [
+                    "Root Group/Global/Livestock/Livestock Densities 2010 (Gilbert et al 2018)/Goat Density"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Buffalo Density",
+                  "url": "https://geoglam.ternlandscapes.org.au/geoserver/global/wms",
+                  "opacity": 1,
+                  "layers": "buf_density_2010",
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "id": "VRTGGW",
+                  "shareKeys": [
+                    "Root Group/Global/Livestock/Livestock Densities 2010 (Gilbert et al 2018)/Buffalo Density"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Horse Density",
+                  "url": "https://geoglam.ternlandscapes.org.au/geoserver/global/wms",
+                  "opacity": 1,
+                  "layers": "horse_density_2010",
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "id": "pHUAuY",
+                  "shareKeys": [
+                    "Root Group/Global/Livestock/Livestock Densities 2010 (Gilbert et al 2018)/Horse Density"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Pig Density",
+                  "url": "https://geoglam.ternlandscapes.org.au/geoserver/global/wms",
+                  "opacity": 1,
+                  "layers": "pig_density_2010",
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "id": "w66tBA",
+                  "shareKeys": [
+                    "Root Group/Global/Livestock/Livestock Densities 2010 (Gilbert et al 2018)/Pig Density"
+                  ]
+                }
+              ],
+              "shareKeys": [
+                "Root Group/Global/Livestock/Livestock Densities 2010 (Gilbert et al 2018)"
+              ]
+            }
+          ],
+          "shareKeys": [
+            "Root Group/Global/Livestock"
+          ]
+        },
+        {
+          "id": "rxqESs",
+          "type": "group",
+          "name": "Boundaries",
+          "members": [
+            {
+              "type": "wms",
+              "name": "Global Administrative Areas Level 0 (Countries)",
+              "url": "https://geoglam.ternlandscapes.org.au/geoserver/wms?",
+              "opacity": 0.75,
+              "isOpenInWorkbench": false,
+              "layers": "Global administrative areas V3.6 level 0",
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "id": "kkc4az",
+              "shareKeys": [
+                "Root Group/Global/Boundaries/Global Administrative Areas Level 0 (Countries)"
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Global Administrative Areas Level 1 (Province, State)",
+              "url": "https://geoglam.ternlandscapes.org.au/geoserver/wms?",
+              "opacity": 0.75,
+              "isOpenInWorkbench": false,
+              "layers": "Global administrative areas V3.6 level 1",
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "id": "tbEFHz",
+              "shareKeys": [
+                "Root Group/Global/Boundaries/Global Administrative Areas Level 1 (Province, State)"
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Global Administrative Areas Level 2 (Shire, County)",
+              "url": "https://geoglam.ternlandscapes.org.au/geoserver/wms?",
+              "opacity": 0.75,
+              "isOpenInWorkbench": false,
+              "layers": "Global administrative areas V3.6 level 2",
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "id": "JVNttf",
+              "shareKeys": [
+                "Root Group/Global/Boundaries/Global Administrative Areas Level 2 (Shire, County)"
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Place Labels",
+              "info": [
+                {
+                  "name": "Licensing, Terms & Conditions",
+                  "content": "<a href='https://science.nasa.gov/earth-science/earth-science-data/data-information-policy/'>NASA Open Data Policy</a> <p> We acknowledge the use of imagery provided by services from the Global Imagery Browse Services (GIBS), operated by the NASA/GSFC/Earth Science Data and Information System (ESDIS, <a href='https://earthdata.nasa.gov'>https://earthdata.nasa.gov</a>) with funding provided by NASA/HQ."
+                }
+              ],
+              "url": "https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi",
+              "opacity": 1,
+              "isOpenInWorkbench": false,
+              "layers": "Reference_Labels",
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "keepOnTop": true,
+              "id": "tN2nrg",
+              "shareKeys": [
+                "Root Group/Global/Boundaries/Place Labels"
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Coastlines / Borders / Roads",
+              "info": [
+                {
+                  "name": "Licensing, Terms & Conditions",
+                  "content": "<a href='https://science.nasa.gov/earth-science/earth-science-data/data-information-policy/'>NASA Open Data Policy</a> <p> We acknowledge the use of imagery provided by services from the Global Imagery Browse Services (GIBS), operated by the NASA/GSFC/Earth Science Data and Information System (ESDIS, <a href='https://earthdata.nasa.gov'>https://earthdata.nasa.gov</a>) with funding provided by NASA/HQ."
+                }
+              ],
+              "url": "https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi",
+              "opacity": 1,
+              "isOpenInWorkbench": false,
+              "layers": "Reference_Features",
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "keepOnTop": true,
+              "id": "LfaYaM",
+              "shareKeys": [
+                "Root Group/Global/Boundaries/Coastlines / Borders / Roads"
+              ]
+            }
+          ],
+          "shareKeys": [
+            "Root Group/Global/Boundaries"
+          ]
+        }
+      ],
+      "shareKeys": [
+        "Root Group/Global"
+      ]
+    },
+    {
+      "id": "ukgQr6",
+      "type": "group",
+      "name": "Regional Reports",
+      "members": [
+        {
+          "type": "geojson",
+          "name": "NRM Regions Reports (Australia)",
+          "info": [
+            {
+              "name": "Abstract",
+              "content": ""
+            },
+            {
+              "name": "Overview",
+              "content": ""
+            },
+            {
+              "name": "Accuracy and limitations",
+              "content": ""
+            },
+            {
+              "name": "File naming",
+              "content": ""
+            },
+            {
+              "name": "References",
+              "content": ""
+            }
+          ],
+          "url": "https://eo-data.csiro.au/remotesensing/misc/source_files/nrm2017_transparent.geojson",
+          "featureInfoTemplate": {
+            "template": "{{NRM_REGION}} NRM, {{STATE}}. \n\nThis report provides information about vegetation covering the soil surface for the {{NRM_REGION}} NRM region ({{STATE}}) during a single month with comparison to previous years. Vegetation cover indicates where soil is likely to be protected from wind and or water (hillslope) erosion. Results are shown for the whole region (polygon) and also separated by land use and tree cover. Different land uses are likely to have different cover patterns and targets. Reporting is most reliable with less than 20% tree cover.\n\nYou can download the entire report as a PDF in <a href='https://eo-data.csiro.au/remotesensing/reports/nrm/{{STATE}}/{{NRM_REGION}}/{{NRM_REGION}}_landuse_fc.pdf'>this link</a>.\n\nReports for previous months for this region available in <a href='https://eo-data.csiro.au/nrm.html'> this link</a>.\n\nA CSV file with the data used for this report available in <a href='https://eo-data.csiro.au/remotesensing/reports/nrm/{{STATE}}/{{NRM_REGION}}/{{NRM_REGION}}.csv'>this link</a>.\n\nMost recent report for the entire region\n<figure> <img style='width: 100%' src='https://eo-data.csiro.au/remotesensing/misc/report_png/nrm/{{STATE}}/{{NRM_REGION}}/entire_region.png'/>\n\n Time series for the entire region: \n<figure> <img style='width: 100%' src='https://eo-data.csiro.au/remotesensing/misc/report_png/nrm/{{STATE}}/{{NRM_REGION}}/entire_region_timeseries.png'/>\n\nReport for grazing areas (non-grazing areas masked out): \n<figure> <img style='width: 100%' src='https://eo-data.csiro.au/remotesensing/misc/report_png/nrm/{{STATE}}/{{NRM_REGION}}/grz_map.png'/>\n\n Time series for the grazing areas (non-grazing areas masked out): \n<figure> <img style='width: 100%' src='https://eo-data.csiro.au/remotesensing/misc/report_png/nrm/{{STATE}}/{{NRM_REGION}}/grz_timeseries.png'/>\n\nReport for agriculture areas (grazing and crops, non agriculture areas masked out): \n<figure> <img style='width: 100%' src='https://eo-data.csiro.au/remotesensing/misc/report_png/nrm/{{STATE}}/{{NRM_REGION}}/agr_map.png'/>\n\n Time series for Agriculture areas (grazing and crops, non agriculture areas masked out): \n<figure> <img style='width: 100%' src='https://eo-data.csiro.au/remotesensing/misc/report_png/nrm/{{STATE}}/{{NRM_REGION}}/agr_timeseries.png'/>\n\nReport for Conservation and Natural Environment areas : \n<figure> <img style='width: 100%' src='https://eo-data.csiro.au/remotesensing/misc/report_png/nrm/{{STATE}}/{{NRM_REGION}}/cne_map.png'/>\n\n Time series for Conservation and Natural Environment areas: \n<figure> <img style='width: 100%' src='https://eo-data.csiro.au/remotesensing/misc/report_png/nrm/{{STATE}}/{{NRM_REGION}}/cne_timeseries.png'/>\n\nExplanatory notes: \n\nThis report has been generated using MODIS fractional vegetation cover information available in the Rangelands and Pasture Productivity (RAPP) map tool. The report is based on an analysis of 500 metre pixels. Pixels with greater than or equal to 50% vegetation cover are generally considered to be protected from or have reduced soil loss by wind erosion, and pixels with greater than or equal to 70% vegetation cover are generally considered to also be protected from or have reduced soil loss from water (hillslope) erosion. Higher cover thresholds may be required for erosion protection in some regions. This report will be less applicable in areas with sparse forest (20-50% tree cover) or dense forest (> 50% tree cover). Therefore land use classes are divided by tree cover: 1) No forest is when there is less than 20% tree cover 2) Sparse forest, is when there is less than 20 to 50 % tree cover 3) Dense forest is greater than 50% tree cover\n\nAcknowledgment of data: \n\n1. Australian Land Use and Management Classification http://www.agriculture.gov.au/abares/aclump/land-use/alum-classification \n\n2. Australia's State of the Forests Report http://www.agriculture.gov.au/abares/forestsaustralia/sofr/sofr-2018 \n\n3. Maintaining groundcover to reduce erosion and sustain production https://www.dpi.nsw.gov.au/agriculture/pastures-and-rangelands/establishment-mgmt/production-management2/groundcover \n\n4. MODIS Fractional cover algorithm: https://doi.org/10.4225/08/5848a3f19a7b3"
+          },
+          "id": "1xMr6k",
+          "shareKeys": [
+            "Root Group/Regional Reports/NRM Regions Reports (Australia)"
+          ]
+        },
+        {
+          "type": "geojson",
+          "name": "LGA Reports (Australia)",
+          "info": [
+            {
+              "name": "Abstract",
+              "content": ""
+            },
+            {
+              "name": "Overview",
+              "content": ""
+            },
+            {
+              "name": "Accuracy and limitations",
+              "content": ""
+            },
+            {
+              "name": "File naming",
+              "content": ""
+            },
+            {
+              "name": "References",
+              "content": ""
+            }
+          ],
+          "url": "https://eo-data.csiro.au/remotesensing/misc/source_files/LGA_2016_AUST_native_simplify.geojson",
+          "featureInfoTemplate": {
+            "template": "{{LGA_NAME16}} LGA, {{STATE}}. \n\nThis report provides information about vegetation covering the soil surface for the {{LGA_NAME16}} LGA region ({{STATE}}) during a single month with comparison to previous years. Vegetation cover indicates where soil is likely to be protected from wind and or water (hillslope) erosion. Results are shown for the whole region (polygon) and also separated by land use and tree cover. Different land uses are likely to have different cover patterns and targets. Reporting is most reliable with less than 20% tree cover.\n\nYou can download the entire report as a PDF in <a href='https://eo-data.csiro.au/remotesensing/reports/lga/{{STATE}}/{{LGA_NAME16}}/{{LGA_NAME16}}_landuse_fc.pdf'>this link</a>.\n\nReports for previous months for this region available in <a href='https://eo-data.csiro.au/lga.html'> this link</a>.\n\nA CSV file with the data used for this report available in <a href='https://eo-data.csiro.au/remotesensing/reports/lga/{{STATE}}/{{LGA_NAME16}}/{{LGA_NAME16}}.csv'>this link</a>.\n\nMost recent report for the entire region\n<figure> <img style='width: 100%' src='https://eo-data.csiro.au/remotesensing/misc/report_png/lga/{{STATE}}/{{LGA_NAME16}}/entire_region.png'/>\n\n Time series for the entire region: \n<figure> <img style='width: 100%' src='https://eo-data.csiro.au/remotesensing/misc/report_png/lga/{{STATE}}/{{LGA_NAME16}}/entire_region_timeseries.png'/>\n\nReport for grazing areas (non-grazing areas masked out): \n<figure> <img style='width: 100%' src='https://eo-data.csiro.au/remotesensing/misc/report_png/lga/{{STATE}}/{{LGA_NAME16}}/grz_map.png'/>\n\n Time series for the grazing areas (non-grazing areas masked out): \n<figure> <img style='width: 100%' src='https://eo-data.csiro.au/remotesensing/misc/report_png/lga/{{STATE}}/{{LGA_NAME16}}/grz_timeseries.png'/>\n\nReport for agriculture areas (grazing and crops, non agriculture areas masked out): \n<figure> <img style='width: 100%' src='https://eo-data.csiro.au/remotesensing/misc/report_png/lga/{{STATE}}/{{LGA_NAME16}}/agr_map.png'/>\n\n Time series for Agriculture areas (grazing and crops, non agriculture areas masked out): \n<figure> <img style='width: 100%' src='https://eo-data.csiro.au/remotesensing/misc/report_png/lga/{{STATE}}/{{LGA_NAME16}}/agr_timeseries.png'/>\n\nReport for Conservation and Natural Environment areas : \n<figure> <img style='width: 100%' src='https://eo-data.csiro.au/remotesensing/misc/report_png/lga/{{STATE}}/{{LGA_NAME16}}/cne_map.png'/>\n\n Time series for Conservation and Natural Environment areas: \n<figure> <img style='width: 100%' src='https://eo-data.csiro.au/remotesensing/misc/report_png/lga/{{STATE}}/{{LGA_NAME16}}/cne_timeseries.png'/>\n\nExplanatory notes: \n\nThis report has been generated using MODIS fractional vegetation cover information available in the Rangelands and Pasture Productivity (RAPP) map tool. The report is based on an analysis of 500 metre pixels. Pixels with greater than or equal to 50% vegetation cover are generally considered to be protected from or have reduced soil loss by wind erosion, and pixels with greater than or equal to 70% vegetation cover are generally considered to also be protected from or have reduced soil loss from water (hillslope) erosion. Higher cover thresholds may be required for erosion protection in some regions. This report will be less applicable in areas with sparse forest (20-50% tree cover) or dense forest (> 50% tree cover). Therefore land use classes are divided by tree cover: 1) No forest is when there is less than 20% tree cover 2) Sparse forest, is when there is less than 20 to 50 % tree cover 3) Dense forest is greater than 50% tree cover\n\nAcknowledgment of data: \n\n1. Australian Land Use and Management Classification http://www.agriculture.gov.au/abares/aclump/land-use/alum-classification \n\n2. Australia's State of the Forests Report http://www.agriculture.gov.au/abares/forestsaustralia/sofr/sofr-2018 \n\n3. Maintaining groundcover to reduce erosion and sustain production https://www.dpi.nsw.gov.au/agriculture/pastures-and-rangelands/establishment-mgmt/production-management2/groundcover \n\n4. MODIS Fractional cover algorithm: https://doi.org/10.4225/08/5848a3f19a7b3"
+          },
+          "id": "ni6pqn",
+          "shareKeys": [
+            "Root Group/Regional Reports/LGA Reports (Australia)"
+          ]
+        }
+      ],
+      "description": "The Regional Reports provide a comprehensive description of the vegetation cover condition for the most recent month on record for the Natural Resources Management regions and the Local Government Areas of Australia. \n\nAdd either NRM or LGA to the Map and then click on the region of interest to see the report.\n  Access to the old reports in https://eo-data.csiro.au .  ",
+      "shareKeys": [
+        "Root Group/Regional Reports"
+      ]
+    },
+    {
+      "id": "24KrPp",
+      "type": "group",
+      "name": "Analysis Tools",
+      "members": [
+        {
+          "type": "wps",
+          "name": "Mean for point or region (Monthly)",
+          "description": "This function returns the mean value for the monthly vegetation fractional cover fractions and precipitation for a given region or pixel. Fractional cover includes green cover, non-green cover and bare ground. Total vegetation cover is green+non-green. \n\nYou can provide the name of the polygon or pixel. You can click on a point, draw a polygon or select a polygon already displayed in the screen.\n\nThe output is a graph and the data can be downloaded as a csv file. ",
+          "url": "https://gsky.nci.org.au/ows/geoglam",
+          "identifier": "geometryDrill",
+          "forceConvertResultsToV8": true,
+          "id": "YqEAiG",
+          "shareKeys": [
+            "Root Group/Analysis Tools/Mean for point or region (Monthly)"
+          ]
+        },
+        {
+          "type": "wps",
+          "name": "Mean for point or region (8-day)",
+          "description": "This function returns the mean value for the 8-day vegetation fractional cover fractions and precipitation for a given region or pixel. Fractional cover includes green cover, non-green cover and bare ground. Total vegetation cover is green+non-green. \n\nYou can provide the name of the polygon or pixel. You can click on a point, draw a polygon or select a polygon already displayed in the screen.\n\nThe output is a graph and the data can be downloaded as a csv file. ",
+          "url": "https://gsky.nci.org.au/ows/geoglam",
+          "identifier": "geometryDrill_8day",
+          "forceConvertResultsToV8": true,
+          "id": "eKePmK",
+          "shareKeys": [
+            "Root Group/Analysis Tools/Mean for point or region (8-day)"
+          ]
+        },
+        {
+          "type": "wps",
+          "name": "Proportion of region within a Total Vegetation Cover range (Monthly)",
+          "description": "This function returns the proportion of a given region within a range of Total Vegetation Cover. Total cover is the sum of green and non-green cover. You can provide the name of the polygon. You must provide the lower and upper limits of total vegetation cover. You can click on a point, draw a polygon or select a polygon already diplayed in the screen.\n\nThe output is a graph and the data can be downloaded as a csv file. ",
+          "url": "https://gsky.nci.org.au/ows/geoglam",
+          "forceConvertResultsToV8": true,
+          "identifier": "geometryDrillPixelFraction",
+          "id": "cyqwlL",
+          "shareKeys": [
+            "Root Group/Analysis Tools/Proportion of region within a Total Vegetation Cover range (Monthly)"
+          ]
+        },
+        {
+          "type": "wps",
+          "name": "Proportion of region within a Total Vegetation Cover range (8-day)",
+          "description": "This function returns the proportion of a given region within a range of Total Vegetation Cover. Total cover is the sum of green and non-green cover. You can provide the name of the polygon. You must provide the lower and upper limits of total vegetation cover. You can click on a point, draw a polygon or select a polygon already diplayed in the screen.\n\nThe output is a graph and the data can be downloaded as a csv file. ",
+          "url": "https://gsky.nci.org.au/ows/geoglam",
+          "forceConvertResultsToV8": true,
+          "identifier": "geometryDrillPixelFraction_8day",
+          "id": "TZLne4",
+          "shareKeys": [
+            "Root Group/Analysis Tools/Proportion of region within a Total Vegetation Cover range (8-day)"
+          ]
+        }
+      ],
+      "description": "The Analysis Tools provide time-series data for selected points (pixels) or regions (polygons). \n\nThe \"Mean for point or region\" function returns the mean value for the vegetation fractional cover fractions and precipitation for a given region or pixel.\n\nThe \"Proportion of region within a Total Vegetation Cover range\" function returns the proportion of a given region within a range of Total Vegetation Cover that you can select. \n\nSimply click on the function and follow the instructions. ",
+      "shareKeys": [
+        "Root Group/Analysis Tools"
+      ]
+    }
+  ],
+  "baseMaps": {
+    "defaultBaseMapId": "basemap-positron"
+  },
+  "corsDomains": [
+    "gibs.earthdata.nasa.gov",
+    "data-cbr.it.csiro.au",
+    "gsky.nci.org.au"
+  ],
+  "homeCamera": {
+    "north": -8,
+    "east": 158,
+    "south": -45,
+    "west": 109
+  }
+}
