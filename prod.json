@@ -1818,6 +1818,28 @@
             },
             {
               "type": "wms",
+              "name": "Monthly Landsat/Sentinel Fractional Cover",
+              "url": "https://ows.csiro.easi-eo.solutions/wms",
+              "opacity": 1,
+              "dateFormat": "yyyy mmm",
+              "initialTimeSource": "stop",
+              "clipToRectangle": true,
+              "layers": "ls_s2_fc_tc",
+              "legends": [
+                {
+                  "url": "http://ows.csiro.easi-eo.solutions/legend/ls_s2_fc_tc/total_cover/legend.png"
+                }
+              ],
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "id": "k4DxPz",
+              "shareKeys": [
+                "Root Group/Australia/Vegetation Cover - Landsat/Sentinel (30/20 meters)/Monthly Landsat/Sentinel Fractional Cover"
+              ]
+            },
+            {
+              "type": "wms",
               "name": "Daily Fractional Cover Landsat",
               "url": "https://ows.dea.ga.gov.au/",
               "opacity": 1,
@@ -3110,7 +3132,8 @@
   "corsDomains": [
     "gibs.earthdata.nasa.gov",
     "data-cbr.it.csiro.au",
-    "gsky.nci.org.au"
+    "gsky.nci.org.au",
+    "ows.csiro.easi-eo.solutions"
   ],
   "homeCamera": {
     "north": -8,
