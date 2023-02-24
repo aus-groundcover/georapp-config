@@ -1819,7 +1819,7 @@
             {
               "type": "wms",
               "name": "Monthly Landsat/Sentinel Fractional Cover",
-              "url": "http://ows.csiro.easi-eo.solutions/wms",
+              "url": "https://ows.csiro.easi-eo.solutions/wms",
               "opacity": 1,
               "dateFormat": "yyyy mmm",
               "initialTimeSource": "stop",
@@ -1827,7 +1827,7 @@
               "layers": "ls_s2_fc_tc",
               "legends": [
                 {
-                  "url": "https://ows.csiro.easi-eo.solutions/?service=WMS&version=1.3.0&request=GetLegendGraphic&format=image%2Fpng&transparent=True&layer=ls_s2_fc_tc"
+                  "url": "http://ows.csiro.easi-eo.solutions/legend/ls_s2_fc_tc/total_cover/legend.png"
                 }
               ],
               "tileErrorHandlingOptions": {
