@@ -1816,6 +1816,28 @@
                 "Root Group/Australia/Vegetation Cover - Landsat/Sentinel (30/20 meters)/Monthly Landsat Fractional Cover (experimental)"
               ]
             },
+			{
+              "type": "wms",
+              "name": "Monthly Landsat/Sentinel Fractional Cover",
+              "url": "http://ows.csiro.easi-eo.solutions/wms",
+              "opacity": 1,
+              "dateFormat": "yyyy mmm",
+              "initialTimeSource": "stop",
+              "clipToRectangle": true,
+              "layers": "ls_s2_fc_tc",
+              "legends": [
+                {
+                  "url": "https://ows.csiro.easi-eo.solutions/?service=WMS&version=1.3.0&request=GetLegendGraphic&format=image%2Fpng&transparent=True&layer=ls_s2_fc_tc"
+                }
+              ],
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "id": "k4DxPz",
+              "shareKeys": [
+                "Root Group/Australia/Vegetation Cover - Landsat/Sentinel (30/20 meters)/Monthly Landsat/Sentinel Fractional Cover"
+              ]
+            },
             {
               "type": "wms",
               "name": "Daily Fractional Cover Landsat",
@@ -3110,7 +3132,8 @@
   "corsDomains": [
     "gibs.earthdata.nasa.gov",
     "data-cbr.it.csiro.au",
-    "gsky.nci.org.au"
+    "gsky.nci.org.au",
+	"ows.csiro.easi-eo.solutions"
   ],
   "homeCamera": {
     "north": -8,
