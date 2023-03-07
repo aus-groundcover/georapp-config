@@ -1796,28 +1796,6 @@
             },
             {
               "type": "wms",
-              "name": "Monthly Landsat Fractional Cover (experimental)",
-              "url": "https://geoglam.ternlandscapes.org.au/geoserver/test/wms",
-              "opacity": 1,
-              "dateFormat": "yyyy mmm",
-              "initialTimeSource": "stop",
-              "clipToRectangle": true,
-              "layers": "aust_monthly_median_frac_cover",
-              "legends": [
-                {
-                  "url": "https://gsky.nci.org.au/ows/geoglam?service=WMS&version=1.1.0&request=GetLegendGraphic&format=image%2Fpng&transparent=True&layer=modis_fract_cov_8day&srs=EPSG%3A3857"
-                }
-              ],
-              "tileErrorHandlingOptions": {
-                "ignoreUnknownTileErrors": true
-              },
-              "id": "h7tQsu",
-              "shareKeys": [
-                "Root Group/Australia/Vegetation Cover - Landsat/Sentinel (30/20 meters)/Monthly Landsat Fractional Cover (experimental)"
-              ]
-            },
-            {
-              "type": "wms",
               "name": "Monthly Total Vegetation Cover (PV+NPV) - Landsat/Sentinel 2, CSIRO algorithm",
               "url": "https://ows.csiro.easi-eo.solutions/wms",
               "opacity": 1,
@@ -1836,23 +1814,6 @@
               "id": "k4DxPz",
               "shareKeys": [
                 "Root Group/Australia/Vegetation Cover - Landsat/Sentinel (30/20 meters)/Monthly Landsat/Sentinel Fractional Cover"
-              ]
-            },
-            {
-              "type": "wms",
-              "name": "Daily Fractional Cover Landsat",
-              "url": "https://ows.dea.ga.gov.au/",
-              "opacity": 1,
-              "dateFormat": "yyyy mmm dd",
-              "clipToRectangle": true,
-              "layers": "ga_ls_fc_3",
-              "timeFilterPropertyName": "data_available_for_dates",
-              "tileErrorHandlingOptions": {
-                "ignoreUnknownTileErrors": true
-              },
-              "id": "USq2cD",
-              "shareKeys": [
-                "Root Group/Australia/Vegetation Cover - Landsat/Sentinel (30/20 meters)/Daily Fractional Cover Landsat"
               ]
             }
           ],
