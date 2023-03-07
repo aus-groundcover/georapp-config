@@ -1818,7 +1818,7 @@
             },
             {
               "type": "wms",
-              "name": "Monthly Landsat/Sentinel Fractional Cover",
+              "name": "Monthly Total Vegetation Cover (PV+NPV) - Landsat/Sentinel 2, CSIRO algorithm",
               "url": "https://ows.csiro.easi-eo.solutions/wms",
               "opacity": 1,
               "dateFormat": "yyyy mmm",
