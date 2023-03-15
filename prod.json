@@ -100,6 +100,28 @@
                   "shareKeys": [
                     "Root Group/Australia/Vegetation Cover (MODIS, 500m)/Monthly/Vegetation Cover Deciles (Monthly)"
                   ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Antecedent Rainfall Anomaly Confidence (Monthly)",
+                  "url": "https://ows.csiro.easi-eo.solutions/wms",
+                  "cacheDuration": "2h",
+                  "opacity": 1,
+                  "dateFormat": "mmmm yyyy",
+                  "initialTimeSource": "stop",
+                  "layers": "modis_fc_ante_rain_anom_conf",
+                  "legends": [
+                    {
+                      "url": "http://ows.csiro.easi-eo.solutions/legend/modis_fc_ante_rain_anom_conf/anom_conf/legend.png"
+                    }
+                  ],
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "id": "cOD7wK",
+                  "shareKeys": [
+                    "Root Group/Australia/Vegetation Cover (MODIS, 500m)/Monthly/Antecedent Rainfall Anomaly Confidence (Monthly)"
+                  ]
                 }
               ],
               "isOpen": true,
