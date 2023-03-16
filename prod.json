@@ -103,7 +103,7 @@
                 },
                 {
                   "type": "wms",
-                  "name": "Antecedent Rainfall Anomaly Confidence (Monthly)",
+                  "name": "Accumulated Antecedent Rainfall Anomaly Confidence (Monthly)",
                   "url": "https://ows.csiro.easi-eo.solutions/wms",
                   "cacheDuration": "2h",
                   "opacity": 1,
@@ -120,7 +120,7 @@
                   },
                   "id": "cOD7wK",
                   "shareKeys": [
-                    "Root Group/Australia/Vegetation Cover (MODIS, 500m)/Monthly/Antecedent Rainfall Anomaly Confidence (Monthly)"
+                    "Root Group/Australia/Vegetation Cover (MODIS, 500m)/Monthly/Accumulated Antecedent Rainfall Anomaly Confidence (Monthly)"
                   ]
                 }
               ],
