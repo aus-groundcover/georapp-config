@@ -1752,6 +1752,50 @@
           "members": [
             {
               "type": "wms",
+              "name": "Monthly Total Vegetation Cover (PV+NPV) - Landsat/Sentinel 2, CSIRO algorithm",
+              "url": "https://ows.csiro.easi-eo.solutions/wms",
+              "opacity": 1,
+              "dateFormat": "yyyy mmm",
+              "initialTimeSource": "stop",
+              "clipToRectangle": true,
+              "layers": "ls_s2_fc_tc",
+              "legends": [
+                {
+                  "url": "http://ows.csiro.easi-eo.solutions/legend/ls_s2_fc_tc/total_cover/legend.png"
+                }
+              ],
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "id": "k4DxPz",
+              "shareKeys": [
+                "Root Group/Australia/Vegetation Cover - Landsat/Sentinel (30/20 meters)/Monthly Total Vegetation Cover (PV+NPV) - Landsat/Sentinel 2, CSIRO algorithm"
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Monthly Vegetation Fractional Cover (PV, NPV & BS) - Landsat/Sentinel 2, CSIRO algorithm",
+              "url": "https://ows.csiro.easi-eo.solutions/wms",
+              "opacity": 1,
+              "dateFormat": "mmmm yyyy",
+              "initialTimeSource": "stop",
+              "clipToRectangle": true,
+              "layers": "ls_s2_fc_rgb",
+              "legends": [
+                {
+                  "url": "http://ows.csiro.easi-eo.solutions/legend/ls_s2_fc_rgb/fractional_cover/legend.png"
+                }
+              ],
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "id": "V6jKq2",
+              "shareKeys": [
+                "Root Group/Australia/Vegetation Cover - Landsat/Sentinel (30/20 meters)/Monthly Vegetation Fractional Cover (PV, NPV & BS) - Landsat/Sentinel 2, CSIRO algorithm"
+              ]
+            },
+            {
+              "type": "wms",
               "name": "Seasonal fractional cover - Landsat, JRSRP algorithm",
               "id": "d1d7d2ce-a702-4305-a030-4c49c208963e",
               "url": "http://qld.auscover.org.au/geoserver/aus/wms",
@@ -1814,50 +1858,6 @@
               },
               "shareKeys": [
                 "Root Group/Australia/Vegetation Cover - Landsat/Sentinel (30/20 meters)/Seasonal Persistent Green Cover - Landsat, JRSRP algorithm"
-              ]
-            },
-            {
-              "type": "wms",
-              "name": "Monthly Total Vegetation Cover (PV+NPV) - Landsat/Sentinel 2, CSIRO algorithm",
-              "url": "https://ows.csiro.easi-eo.solutions/wms",
-              "opacity": 1,
-              "dateFormat": "yyyy mmm",
-              "initialTimeSource": "stop",
-              "clipToRectangle": true,
-              "layers": "ls_s2_fc_tc",
-              "legends": [
-                {
-                  "url": "http://ows.csiro.easi-eo.solutions/legend/ls_s2_fc_tc/total_cover/legend.png"
-                }
-              ],
-              "tileErrorHandlingOptions": {
-                "ignoreUnknownTileErrors": true
-              },
-              "id": "k4DxPz",
-              "shareKeys": [
-                "Root Group/Australia/Vegetation Cover - Landsat/Sentinel (30/20 meters)/Monthly Total Vegetation Cover (PV+NPV) - Landsat/Sentinel 2, CSIRO algorithm"
-              ]
-            },
-            {
-              "type": "wms",
-              "name": "Monthly Vegetation Fractional Cover (PV, NPV & BS) - Landsat/Sentinel 2, CSIRO algorithm",
-              "url": "https://ows.csiro.easi-eo.solutions/wms",
-              "opacity": 1,
-              "dateFormat": "mmmm yyyy",
-              "initialTimeSource": "stop",
-              "clipToRectangle": true,
-              "layers": "ls_s2_fc_rgb",
-              "legends": [
-                {
-                  "url": "http://ows.csiro.easi-eo.solutions/legend/ls_s2_fc_rgb/fractional_cover/legend.png"
-                }
-              ],
-              "tileErrorHandlingOptions": {
-                "ignoreUnknownTileErrors": true
-              },
-              "id": "V6jKq2",
-              "shareKeys": [
-                "Root Group/Australia/Vegetation Cover - Landsat/Sentinel (30/20 meters)/Monthly Vegetation Fractional Cover (PV, NPV & BS) - Landsat/Sentinel 2, CSIRO algorithm"
               ]
             }
           ],
