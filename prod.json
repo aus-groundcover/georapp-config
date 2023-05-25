@@ -3149,7 +3149,9 @@
     "gibs.earthdata.nasa.gov",
     "data-cbr.it.csiro.au",
     "gsky.nci.org.au",
-    "ows.csiro.easi-eo.solutions"
+    "ows.csiro.easi-eo.solutions",
+    "wps.csiro.easi-eo.solutions",
+    "wps.dev.easi-eo.solutions"
   ],
   "homeCamera": {
     "north": -8,
