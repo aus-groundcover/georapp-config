@@ -111,6 +111,7 @@
                   "initialTimeSource": "stop",
                   "layers": "modis_fc_ante_rain_anom_conf",
                   "linkedWcsUrl": "https://ows.csiro.easi-eo.solutions/",
+                  "linkedWcsCoverage": "modis_fc_ante_rain_anom_conf",
                   "legends": [
                     {
                       "url": "http://ows.csiro.easi-eo.solutions/legend/modis_fc_ante_rain_anom_conf/anom_conf/legend.png"
@@ -1761,6 +1762,7 @@
               "clipToRectangle": true,
               "layers": "ls_s2_fc_tc",
               "linkedWcsUrl": "https://ows.csiro.easi-eo.solutions/",
+              "linkedWcsCoverage": "ls_s2_fc_tc",
               "legends": [
                 {
                   "url": "http://ows.csiro.easi-eo.solutions/legend/ls_s2_fc_tc/total_cover/legend.png"
@@ -1784,6 +1786,7 @@
               "clipToRectangle": true,
               "layers": "ls_s2_fc_rgb",
               "linkedWcsUrl": "https://ows.csiro.easi-eo.solutions/",
+              "linkedWcsCoverage": "ls_s2_fc_rgb",
               "legends": [
                 {
                   "url": "http://ows.csiro.easi-eo.solutions/legend/ls_s2_fc_rgb/fractional_cover/legend.png"
