@@ -31,7 +31,6 @@
                   "dateFormat": "mmmm yyyy",
                   "initialTimeSource": "stop",
                   "layers": "modis_fract_cov_monthly",
-                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
                   "linkedWcsCoverage": "modis_fract_cov_monthly",
                   "tileErrorHandlingOptions": {
                     "ignoreUnknownTileErrors": true
@@ -51,7 +50,6 @@
                   "dateFormat": "mmmm yyyy",
                   "initialTimeSource": "stop",
                   "layers": "modis_tot_cov_monthly",
-                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
                   "linkedWcsCoverage": "modis_tot_cov_monthly",
                   "tileErrorHandlingOptions": {
                     "ignoreUnknownTileErrors": true
@@ -71,7 +69,6 @@
                   "dateFormat": "mmmm yyyy",
                   "initialTimeSource": "stop",
                   "layers": "modis_tot_cov_anomaly",
-                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
                   "linkedWcsCoverage": "modis_tot_cov_anomaly",
                   "tileErrorHandlingOptions": {
                     "ignoreUnknownTileErrors": true
@@ -91,7 +88,6 @@
                   "dateFormat": "mmmm yyyy",
                   "initialTimeSource": "stop",
                   "layers": "modis_tot_cov_decile",
-                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
                   "linkedWcsCoverage": "modis_tot_cov_decile",
                   "tileErrorHandlingOptions": {
                     "ignoreUnknownTileErrors": true
@@ -146,7 +142,6 @@
                   "dateFormat": "dd/mm/yyyy",
                   "initialTimeSource": "stop",
                   "layers": "modis_fract_cov_8day",
-                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
                   "linkedWcsCoverage": "modis_fract_cov_8day",
                   "tileErrorHandlingOptions": {
                     "ignoreUnknownTileErrors": true
@@ -166,7 +161,6 @@
                   "dateFormat": "dd/mm/yyyy",
                   "initialTimeSource": "stop",
                   "layers": "modis_tot_cov_8day",
-                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
                   "linkedWcsCoverage": "modis_tot_cov_8day",
                   "tileErrorHandlingOptions": {
                     "ignoreUnknownTileErrors": true
@@ -2460,7 +2454,6 @@
                   "dateFormat": "mmmm yyyy",
                   "initialTimeSource": "stop",
                   "layers": "modis_fract_cov_monthly",
-                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
                   "linkedWcsCoverage": "modis_fract_cov_monthly",
                   "tileErrorHandlingOptions": {
                     "ignoreUnknownTileErrors": true
@@ -2480,7 +2473,6 @@
                   "dateFormat": "mmmm yyyy",
                   "initialTimeSource": "stop",
                   "layers": "modis_tot_cov_monthly",
-                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
                   "linkedWcsCoverage": "modis_tot_cov_monthly",
                   "tileErrorHandlingOptions": {
                     "ignoreUnknownTileErrors": true
@@ -2500,7 +2492,6 @@
                   "dateFormat": "mmmm yyyy",
                   "initialTimeSource": "stop",
                   "layers": "modis_tot_cov_anomaly",
-                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
                   "linkedWcsCoverage": "modis_tot_cov_anomaly",
                   "tileErrorHandlingOptions": {
                     "ignoreUnknownTileErrors": true
@@ -2520,7 +2511,6 @@
                   "dateFormat": "mmmm yyyy",
                   "initialTimeSource": "stop",
                   "layers": "modis_tot_cov_decile",
-                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
                   "linkedWcsCoverage": "modis_tot_cov_decile",
                   "tileErrorHandlingOptions": {
                     "ignoreUnknownTileErrors": true
@@ -2551,7 +2541,6 @@
                   "dateFormat": "dd/mm/yyyy",
                   "initialTimeSource": "stop",
                   "layers": "modis_fract_cov_8day",
-                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
                   "linkedWcsCoverage": "modis_fract_cov_8day",
                   "tileErrorHandlingOptions": {
                     "ignoreUnknownTileErrors": true
@@ -2571,7 +2560,6 @@
                   "dateFormat": "dd/mm/yyyy",
                   "initialTimeSource": "stop",
                   "layers": "modis_tot_cov_8day",
-                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
                   "linkedWcsCoverage": "modis_tot_cov_8day",
                   "tileErrorHandlingOptions": {
                     "ignoreUnknownTileErrors": true
@@ -3121,7 +3109,7 @@
               "id": "cyqwlL",
               "shareKeys": [
                 "Root Group/Analysis Tools/MODIS (500m)/Proportion of region within a Total Vegetation Cover range (Monthly)"
-                ]
+              ]
             },
             {
               "type": "wps",
