@@ -1804,12 +1804,12 @@
               "type": "wms",
               "name": "Seasonal fractional cover - Landsat, JRSRP algorithm",
               "id": "d1d7d2ce-a702-4305-a030-4c49c208963e",
-              "url": "http://qld.auscover.org.au/geoserver/aus/wms",
+              "url": "https://geoserver.tern.org.au/geoserver/aus/fractional_cover_v3/ows",
               "opacity": 1,
               "dateFormat": "mmm yyyy",
               "initialTimeSource": "stop",
               "clipToRectangle": true,
-              "layers": "fractional_cover",
+              "layers": "fractional_cover_v3",
               "legends": [
                 {
                   "url": "https://vegmachine.net/assets/images/legend_triangleonly.png"
@@ -1825,12 +1825,12 @@
             {
               "type": "wms",
               "name": "Seasonal fractional cover - Sentinel 2, JRSRP algorithm",
-              "url": "http://qld.auscover.org.au/geoserver/aus/wms",
+              "url": "https://geoserver.tern.org.au/geoserver/aus/sentinel_fractional_v3/ows",
               "opacity": 1,
               "dateFormat": "mmm yyyy",
               "initialTimeSource": "stop",
               "clipToRectangle": true,
-              "layers": "sentinel_fractional",
+              "layers": "sentinel_fractional_v3",
               "legends": [
                 {
                   "url": "https://vegmachine.net/assets/images/legend_triangleonly.png"
@@ -1848,12 +1848,12 @@
               "type": "wms",
               "name": "Seasonal Persistent Green Cover - Landsat, JRSRP algorithm",
               "id": "25aec031-b165-4f9f-a346-e338c2a332fa",
-              "url": "http://qld.auscover.org.au/geoserver/aus/wms",
+              "url": "https://geoserver.tern.org.au/geoserver/aus/persistent_green_v3/ows",
               "opacity": 1,
               "dateFormat": "mmm yyyy",
               "initialTimeSource": "stop",
               "clipToRectangle": true,
-              "layers": "persistent_green",
+              "layers": "persistent_green_v3",
               "legends": [
                 {
                   "url": "https://vegmachine.net/assets/images/persistent_green_legend.png"
@@ -1976,10 +1976,11 @@
               "type": "esri-mapServer",
               "name": "Collaborative Australian Protected Areas Database (CAPAD)",
               "id": "126ff747-1594-4168-b691-ddaf2202d56e",
-              "url": "http://www.environment.gov.au/mapping/rest/services/ogc_services/capad/MapServer/0",
+              "url": "https://gis.environment.gov.au/gispubmap/rest/services/ogc_services/CAPAD/MapServer",
               "opacity": 1,
               "clipToRectangle": true,
-              "shareKeys": [
+              "layers": "Terrestrial CAPAD",
+			  "shareKeys": [
                 "Root Group/Australia/Land Use / Land Cover/Collaborative Australian Protected Areas Database (CAPAD)"
               ]
             },
@@ -1987,7 +1988,7 @@
               "type": "esri-mapServer",
               "name": "Ramsar Wetlands of Australia",
               "id": "bdb6a2aa-ad05-48bc-b8ce-216590485d2f",
-              "url": "http://www.environment.gov.au/mapping/rest/services/ogc_services/Ramsar_Wetlands/MapServer",
+              "url": "https://gis.environment.gov.au/gispubmap/rest/services/ogc_services/Ramsar_Wetlands/MapServer",
               "opacity": 1,
               "clipToRectangle": true,
               "layers": "Ramsar_Wetlands",
@@ -1999,7 +2000,7 @@
               "type": "esri-mapServer",
               "name": "Interim Biogeographic Regionalisation for Australia (IBRA) version 7.0 Regions",
               "id": "93a9b3b8-00b1-44f0-a202-d0e4f86271b8",
-              "url": "http://www.environment.gov.au/mapping/rest/services/ogc_services/IBRA7_Regions/MapServer",
+              "url": "https://gis.environment.gov.au/gispubmap/rest/services/ogc_services/IBRA7_Regions/MapServer",
               "opacity": 1,
               "clipToRectangle": true,
               "layers": "IBRA7 regions",
@@ -2011,7 +2012,7 @@
               "type": "esri-mapServer",
               "name": "Interim Biogeographic Regionalisation for Australia (IBRA) version 7.0 Subregions",
               "id": "fa38c8cc-8e0e-4609-8743-1e6461e44118",
-              "url": "http://www.environment.gov.au/mapping/rest/services/ogc_services/IBRA7_Subregions/MapServer",
+              "url": "https://gis.environment.gov.au/gispubmap/rest/services/ogc_services/IBRA7_Subregions/MapServer",
               "opacity": 1,
               "clipToRectangle": true,
               "layers": "IBRA7 subregions",
@@ -2022,10 +2023,10 @@
             {
               "type": "wms",
               "name": "Vegetation height and structure",
-              "url": "http://qld.auscover.org.au/geoserver/aus/wms",
+              "url": "https://geoserver.tern.org.au/geoserver/model/veg_height_structure_landsat_aus_cov/ows",
               "opacity": 1,
               "clipToRectangle": true,
-              "layers": "structuralForm",
+              "layers": "alpsbk_aust_y2009_sf1a2",
               "tileErrorHandlingOptions": {
                 "ignoreUnknownTileErrors": true
               },
@@ -2034,30 +2035,17 @@
                 "Root Group/Australia/Land Use / Land Cover/Vegetation height and structure"
               ]
             },
-            {
-              "type": "ckan-item",
-              "name": "Observed major vegetation subgroups, from Australia's NVIS database",
-              "id": "662d6a05-6bc9-40ab-aa4f-b9822dd22fcd",
-              "url": "proxy/_60s/https://data.gov.au",
-              "cacheDuration": "1h",
-              "datasetId": "2016-soe-lan-climate-scenarios-observed",
-              "resourceId": "662d6a05-6bc9-40ab-aa4f-b9822dd22fcd",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-lan-climate-scenarios-observed"
-                  }
-                ],
-                "clipToRectangle": true,
-                "ignoreUnknownTileErrors": true
-              },
-              "supportedResourceFormats": [],
-              "shareKeys": [
-                "Root Group/Australia/Land Use / Land Cover/Observed major vegetation subgroups, from Australia's NVIS database"
-              ]
-            }
+			{
+			  "type": "esri-mapServer",
+			  "name": "Observed major vegetation subgroups, from Australia's NVIS database",
+              "url": "https://gis.environment.gov.au/gispubmap/rest/services/ogc_services/NVIS_ext_mvs/MapServer",
+              "opacity": 1,
+              "layers": "NVIS_ext_mvs",
+			  "id": "gj74LV",
+			  "shareKeys": [
+			    "Root Group/Australia/Landscape Attributes/Observed major vegetation subgroups, from Australia's NVIS database"
+			  ]
+			}
           ],
           "shareKeys": [
             "Root Group/Australia/Land Use / Land Cover"
@@ -2092,30 +2080,17 @@
                 "Root Group/Australia/Landscape Attributes/Slope [percent] Median 300m Radius"
               ]
             },
-            {
-              "type": "ckan-item",
-              "name": "Generalised map of soil orders for Australia",
-              "id": "ee9d9cae-188e-4160-9d36-3d1b19b3ea58",
-              "url": "proxy/_60s/https://data.gov.au",
-              "cacheDuration": "1h",
-              "datasetId": "2016-soe-lan-soil-classification",
-              "resourceId": "ee9d9cae-188e-4160-9d36-3d1b19b3ea58",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-lan-soil-classification"
-                  }
-                ],
-                "clipToRectangle": true,
-                "ignoreUnknownTileErrors": true
-              },
-              "supportedResourceFormats": [],
-              "shareKeys": [
-                "Root Group/Australia/Landscape Attributes/Generalised map of soil orders for Australia"
-              ]
-            }
+			{
+			  "type": "wms",
+              "name": "Australian Soil Classification Map - Estimated Value",
+              "url": "https://geoserver.tern.org.au/geoserver/landscapes/ASC/ows",
+              "opacity": 1,
+              "layers": "ASC_EV_C_P_AU_TRN_N",
+			  "id": "7juRgq",
+			  "shareKeys": [
+			    "Root Group/Australia/Landscape Attributes/Australian Soil Classification Map - Estimated Value"
+			  ]
+			},
           ],
           "shareKeys": [
             "Root Group/Australia/Landscape Attributes"
@@ -2130,7 +2105,7 @@
               "type": "esri-mapServer",
               "name": "Australian Rangelands",
               "id": "9bbcc69f-2892-438a-93e0-31688c52e97c",
-              "url": "http://www.environment.gov.au/mapping/rest/services/ogc_services/Rangelands/MapServer/",
+			  "url": "https://gis.environment.gov.au/gispubmap/rest/services/ogc_services/Rangelands/MapServer/",
               "clipToRectangle": true,
               "layers": "Rangelands",
               "shareKeys": [
@@ -2167,10 +2142,10 @@
             {
               "type": "wms",
               "name": "River Regions (Bureau of Meteorology)",
-              "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+			  "url": "https://hosting.wsapi.cloud.bom.gov.au/arcgis/services/ahgf/Geofabric_V3x_All_Products/MapServer/WMSServer",
               "opacity": 1,
               "clipToRectangle": true,
-              "layers": "ahgf_hrr:RiverRegion",
+              "layers": "RiverRegion",
               "tileErrorHandlingOptions": {
                 "ignoreUnknownTileErrors": true
               },
@@ -2186,37 +2161,50 @@
               "members": [
                 {
                   "type": "wms",
-                  "name": "Mesh Blocks (Australian Bureau of Statistics)",
-                  "url": "http://geoserver.nationalmap.nicta.com.au/admin_bnds_abs/ows",
+                  "name": "Commonwealth Electoral Division 2021 (Australian Bureau of Statistics)",
+                  "url": "https://geoserver.tern.org.au/geoserver/ows",
                   "opacity": 1,
                   "isOpenInWorkbench": false,
                   "clipToRectangle": true,
-                  "layers": "admin_bnds:MB_2011_ACT,admin_bnds:MB_2011_NSW,admin_bnds:MB_2011_NT,admin_bnds:MB_2011_OT,admin_bnds:MB_2011_QLD,admin_bnds:MB_2011_SA,admin_bnds:MB_2011_TAS,admin_bnds:MB_2011_VIC,admin_bnds:MB_2011_WA",
+                  "layers": "administrative_area:aus_com_electoral_2021",
                   "tileErrorHandlingOptions": {
                     "ignoreUnknownTileErrors": true
                   },
                   "id": "WhdgwT",
                   "shareKeys": [
-                    "Root Group/Australia/Boundaries/Statistical Regions (Australian Bureau of Statistics)/Mesh Blocks (Australian Bureau of Statistics)"
+                    "Root Group/Australia/Boundaries/Statistical Regions (Australian Bureau of Statistics)/Commonwealth Electoral Division 2021 (Australian Bureau of Statistics)"
                   ]
                 },
+				{
+				  "type": "esri-mapServer",
+                  "name": "Mesh Blocks (Australian Bureau of Statistics)",
+                  "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/MB/MapServer/0",
+                  "opacity": 1,
+                  "isOpenInWorkbench": false,
+                  "clipToRectangle": true,
+                  "keepOnTop": true,
+                  "id": "hF83Pc",
+                  "shareKeys": [
+                    "Root Group/Australia/Boundaries/Statistical Regions (Australian Bureau of Statistics)/Mesh Blocks (Australian Bureau of Statistics)"
+                  ]
+				},
                 {
                   "type": "esri-mapServer",
-                  "name": "Suburbs (SSC) (Australian Bureau of Statistics)",
-                  "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2016/SSC/MapServer/0",
+                  "name": "Suburbs and Localities (SAL) (Australian Bureau of Statistics)",
+                  "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SAL/MapServer/0",
                   "opacity": 1,
                   "isOpenInWorkbench": false,
                   "clipToRectangle": true,
                   "keepOnTop": true,
                   "id": "ELWXbe",
                   "shareKeys": [
-                    "Root Group/Australia/Boundaries/Statistical Regions (Australian Bureau of Statistics)/Suburbs (SSC) (Australian Bureau of Statistics)"
+                    "Root Group/Australia/Boundaries/Statistical Regions (Australian Bureau of Statistics)/Suburbs and Localities (SAL) (Australian Bureau of Statistics)"
                   ]
                 },
                 {
                   "type": "esri-mapServer",
                   "name": "Statistical area level 1 (SA1) (Australian Bureau of Statistics)",
-                  "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2016/SA1/MapServer/1",
+                  "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SA1/MapServer/1",
                   "opacity": 1,
                   "isOpenInWorkbench": false,
                   "clipToRectangle": true,
@@ -2229,7 +2217,7 @@
                 {
                   "type": "esri-mapServer",
                   "name": "Statistical area level 2 (SA2) (Australian Bureau of Statistics)",
-                  "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2016/SA2/MapServer/1",
+                  "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SA2/MapServer/1",
                   "opacity": 1,
                   "isOpenInWorkbench": false,
                   "clipToRectangle": true,
@@ -2242,7 +2230,7 @@
                 {
                   "type": "esri-mapServer",
                   "name": "Statistical area level 3 (SA3) (Australian Bureau of Statistics)",
-                  "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2016/SA3/MapServer/1",
+                  "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SA3/MapServer/1",
                   "opacity": 1,
                   "isOpenInWorkbench": false,
                   "clipToRectangle": true,
@@ -2255,7 +2243,7 @@
                 {
                   "type": "esri-mapServer",
                   "name": "Statistical area level 4 (SA4) (Australian Bureau of Statistics)",
-                  "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2016/SA4/MapServer/1",
+                  "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/SA4/MapServer/1",
                   "opacity": 1,
                   "isOpenInWorkbench": false,
                   "clipToRectangle": true,
@@ -2700,75 +2688,6 @@
               "members": [
                 {
                   "type": "wms",
-                  "name": "Cattle Density",
-                  "url": "https://geoglam.ternlandscapes.org.au/geoserver/global/wms",
-                  "opacity": 1,
-                  "layers": "Cattle-density",
-                  "featureInfoTemplate": {
-                    "name": "Cattle density in 2006",
-                    "template": "<table class='cesium-infoBox-defaultTable'><tbody>  <tr>    <td>Density (heads per sq km)</td>    <td>{{Density (heads per sq km)}}</td>  </tr></tbody></table>",
-                    "formats": {
-                      "Density (heads per sq km)": {
-                        "maximumFractionDigits": 2
-                      }
-                    }
-                  },
-                  "tileErrorHandlingOptions": {
-                    "ignoreUnknownTileErrors": true
-                  },
-                  "id": "ssSkRa",
-                  "shareKeys": [
-                    "Root Group/Global/Livestock/Livestock Densities 2005 (Robinson et al 2014)/Cattle Density"
-                  ]
-                },
-                {
-                  "type": "wms",
-                  "name": "Sheep Density",
-                  "url": "https://geoglam.ternlandscapes.org.au/geoserver/global/wms",
-                  "opacity": 1,
-                  "layers": "Sheep-density",
-                  "featureInfoTemplate": {
-                    "name": "Sheep density in 2006",
-                    "template": "<table class='cesium-infoBox-defaultTable'><tbody>  <tr>    <td>Density (heads per sq km)</td>    <td>{{Density(heads per sq km)}}</td>  </tr></tbody></table>",
-                    "formats": {
-                      "Density(heads per sq km)": {
-                        "maximumFractionDigits": 2
-                      }
-                    }
-                  },
-                  "tileErrorHandlingOptions": {
-                    "ignoreUnknownTileErrors": true
-                  },
-                  "id": "GvT4Vv",
-                  "shareKeys": [
-                    "Root Group/Global/Livestock/Livestock Densities 2005 (Robinson et al 2014)/Sheep Density"
-                  ]
-                },
-                {
-                  "type": "wms",
-                  "name": "Goat Density",
-                  "url": "https://geoglam.ternlandscapes.org.au/geoserver/global/wms",
-                  "opacity": 1,
-                  "layers": "Goat-density",
-                  "featureInfoTemplate": {
-                    "name": "Goat density in 2006",
-                    "template": "<table class='cesium-infoBox-defaultTable'><tbody>  <tr>    <td>Density (heads per sq km)</td>    <td>{{Density(heads per sq km)}}</td>  </tr></tbody></table>",
-                    "formats": {
-                      "Density(heads per sq km)": {
-                        "maximumFractionDigits": 2
-                      }
-                    }
-                  },
-                  "tileErrorHandlingOptions": {
-                    "ignoreUnknownTileErrors": true
-                  },
-                  "id": "umBqIs",
-                  "shareKeys": [
-                    "Root Group/Global/Livestock/Livestock Densities 2005 (Robinson et al 2014)/Goat Density"
-                  ]
-                },
-                {
-                  "type": "wms",
                   "name": "Cattle Equivalents",
                   "url": "https://geoglam.ternlandscapes.org.au/geoserver/global/wms",
                   "opacity": 1,
@@ -3139,6 +3058,41 @@
           "description": "Analysis Tools for MODIS based products.",
           "shareKeys": [
             "Root Group/Analysis Tools/MODIS (500m)"
+          ]
+        },
+		{
+          "id": "u2w68v",
+          "type": "group",
+          "name": "Landsat/Sentinel (30/20 meters)",
+          "members": [
+		    {
+				"type": "wps",
+				"name": "Mean for point or region (Monthly)",
+				"description": "This function returns the mean value for the LS/S-2 monthly vegetation fractional cover fractions for a given region or pixel. Fractional cover includes green cover, non-green cover and bare ground. Total vegetation cover is green+non-green. \n\nYou can provide the name of the polygon or pixel. You can click on a point, draw a polygon or select a polygon already displayed in the screen.\n\nThe output is a graph and the data can be downloaded as a csv file.",
+				"url": "https://wps.dev.easi-eo.solutions",
+				"forceConvertResultsToV8": false,
+				"identifier": "LS S2 FC Mean Drill",
+				"id": "Huj72e",
+				"shareKeys": [
+				  "Root Group/Analysis Tools/Landsat\/Sentinel (30\/20 meters)/Mean for point or region (Monthly)"
+				]
+			},
+			{
+				"type": "wps",
+				"name": "Proportion of region within a Total Vegetation Cover range (Monthly)",
+				"description": "This function returns the proportion of a given region within a range of LS/S-2 Total Vegetation Cover. Total cover is the sum of green and non-green cover. You can provide the name of the polygon. You must provide the lower and upper limits of total vegetation cover. You can click on a point, draw a polygon or select a polygon already diplayed in the screen.\n\nThe output is a graph and the data can be downloaded as a csv file.",
+				"url": "https://wps.dev.easi-eo.solutions",
+				"forceConvertResultsToV8": false,
+				"identifier": "LS S2 FC TC Prop Drill",
+				"id": "k8XZ0d",
+				"shareKeys": [
+				  "Root Group/Analysis Tools/Landsat\/Sentinel (30\/20 meters)/Proportion of region within a Total Vegetation Cover range (Monthly)"
+				]
+			}
+		  ],
+		  "description": "Analysis Tools for Landsat and Sentinel-2 based products.",
+          "shareKeys": [
+            "Root Group/Analysis Tools/Landsat\/Sentinel (30\/20 meters)"
           ]
         }
       ],
